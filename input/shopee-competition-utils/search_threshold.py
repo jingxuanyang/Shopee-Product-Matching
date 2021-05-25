@@ -61,7 +61,7 @@ def search_best_threshold(model=0):
     CFG.BEST_THRESHOLD_MIN2 = best_threshold
 
 def search_inb_threshold(valid_df,valid_embeddings):
-    search_space = np.arange(10, 50, 1)
+    search_space = np.arange(5, 45, 1)
     print("Searching best threshold...")
     best_f1_valid = 0.
     best_threshold = 0.
