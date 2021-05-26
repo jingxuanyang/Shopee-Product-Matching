@@ -72,7 +72,7 @@ class CFG:
     BERT_MARGINS = [0.5,0.6,0.7,0.8]
     FC_DIM_BERT = 768
     SEED_BERT = 412
-    CLASSES_BERT = 11014
+    CLASSES_BERT = 6609
     
     # Training
     ACCUM_ITER = 1  # 1 if use_sam = True
