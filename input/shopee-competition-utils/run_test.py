@@ -212,7 +212,7 @@ def run_bert_test_all():
     _, valid_df, test_df = read_dataset()
     test_result_dict = {}
     for i in range(len(CFG.BERT_MODEL_NAMES)):
-        CFG.MODEL_NAME = CFG.BERT_MODEL_NAMES[i]
+        CFG.BERT_MODEL_NAME = CFG.BERT_MODEL_NAMES[i]
         test_f1_list = [[0 for i in range(3)] for j in range(len(CFG.BERT_MARGINS))]
         test_recall_list = [[0 for i in range(3)] for j in range(len(CFG.BERT_MARGINS))]
         test_precision_list = [[0 for i in range(3)] for j in range(len(CFG.BERT_MARGINS))]
