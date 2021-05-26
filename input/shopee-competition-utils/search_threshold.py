@@ -60,8 +60,8 @@ def search_best_threshold(model=0):
     print("Best f1 score after min2 =", best_f1_valid)
     CFG.BEST_THRESHOLD_MIN2 = best_threshold
 
-def search_inb_threshold(valid_df,valid_embeddings):
-    search_space = np.arange(5, 45, 1)
+def search_inb_threshold(valid_df,valid_embeddings,lower=1,upper=50):
+    search_space = np.arange(lower, upper, 1)
     print("Searching best threshold...")
     best_f1_valid = 0.
     best_threshold = 0.
@@ -72,9 +72,11 @@ def search_inb_threshold(valid_df,valid_embeddings):
         valid_recall = valid_df.recall.mean()
         valid_precision = valid_df.precision.mean()
         print(f"threshold = {threshold} -> f1 score = {valid_f1}, recall = {valid_recall}, precision = {valid_precision}")
-        if (valid_f1 > best_f1_valid):
+        if valid_f1 > best_f1_valid:
             best_f1_valid = valid_f1
             best_threshold = threshold
+        else:
+            break
 
     print("Best threshold =", best_threshold)
     print("Best f1 score =", best_f1_valid)
@@ -83,7 +85,7 @@ def search_inb_threshold(valid_df,valid_embeddings):
     # phase 2 search
     print("________________________________")
     print("Searching best min2 threshold...")
-    search_space = np.arange(CFG.BEST_THRESHOLD * 100, CFG.BEST_THRESHOLD * 100 + 20, 0.5)
+    search_space = np.arange(CFG.BEST_THRESHOLD * 100, CFG.BEST_THRESHOLD * 100 + 21, 0.5)
 
     best_f1_valid = 0.
     best_threshold = 0.
@@ -101,6 +103,8 @@ def search_inb_threshold(valid_df,valid_embeddings):
         if valid_f1 > best_f1_valid:
             best_f1_valid = valid_f1
             best_threshold = threshold
+        else:
+            break
 
     print("Best min2 threshold =", best_threshold)
     print("Best f1 score after min2 =", best_f1_valid)

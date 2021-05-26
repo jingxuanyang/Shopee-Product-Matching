@@ -24,8 +24,8 @@ class CFG:
     CLASSES = 6609 
     SCALE = 30
 
-    MARGINS = [0.5,0.6,0.7,0.8,0.9]
     MARGIN = 0.5
+    MARGINS = [0.5,0.6,0.7,0.8,0.9]
 
     BEST_THRESHOLD = 0.19
     BEST_THRESHOLD_MIN2 = 0.225
@@ -41,6 +41,7 @@ class CFG:
 
     MODEL_PATH_PREFIX = '../input/image-model-trained/'
     EMB_PATH_PREFIX = '../input/image-embeddings/'
+    RESULTS_SAVE_PATH = '../input/shopee-competition-results/'
     
     MODEL_PATH = f'{MODEL_NAME}_{LOSS_MODULE}_face_epoch_8_bs_8_margin_{MARGIN}.pt'
 
