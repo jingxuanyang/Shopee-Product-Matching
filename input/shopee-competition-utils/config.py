@@ -42,6 +42,8 @@ class CFG:
     MODEL_PATH_PREFIX = '../input/image-model-trained/'
     EMB_PATH_PREFIX = '../input/image-embeddings/'
     RESULTS_SAVE_PATH = '../input/shopee-competition-results/'
+    # TEXT_MODEL_PATH_PREFIX = './' # for testing
+    TEXT_MODEL_PATH_PREFIX = '../input/text-model-trained/'
     
     MODEL_PATH = f'{MODEL_NAME}_{LOSS_MODULE}_face_epoch_8_bs_8_margin_{MARGIN}.pt'
 
@@ -55,3 +57,44 @@ class CFG:
             "lr_sus_ep": 0,
             "lr_decay": 0.8,
         }
+
+    ################################### BERT ####################################
+    BERT_MODEL_NAMES = ['bert-base-multilingual-uncased',
+                        'cahya/bert-base-indonesian-1.5G',
+                        'cahya/distilbert-base-indonesian',
+                        'sentence-transformers/paraphrase-xlm-r-multilingual-v1',
+                        'sentence-transformers/paraphrase-distilroberta-base-v1']
+
+    BERT_MODEL_NAME = 'sentence-transformers/paraphrase-xlm-r-multilingual-v1'
+
+    MAX_LENGTH = 128
+
+    BERT_MARGINS = [0.5,0.6,0.7,0.8]
+    FC_DIM_BERT = 768
+    SEED_BERT = 412
+    CLASSES_BERT = 11014
+    
+    # Training
+    ACCUM_ITER = 1  # 1 if use_sam = True
+    MIN_SAVE_EPOCH = EPOCHS // 3
+    USE_SAM = True  # SAM (Sharpness-Aware Minimization for Efficiently Improving Generalization)
+    USE_AMP = True  # Automatic Mixed Precision
+    
+    # NearestNeighbors
+    BERT_KNN_THRESHOLD = 0.4  # Cosine distance threshold
+    
+    # GradualWarmupSchedulerV2（lr_start -> lr_max -> lr_min）
+    SCHEDULER_PARAMS_BERT = {
+        "lr_start": 7.5e-6,
+        "lr_max": 1e-4,
+        "lr_min": 2.74e-5, # 1.5e-5,
+    }
+
+    MULTIPLIER = SCHEDULER_PARAMS_BERT['lr_max'] / SCHEDULER_PARAMS_BERT['lr_start']
+    ETA_MIN = SCHEDULER_PARAMS_BERT['lr_min']  # last minimum learning rate
+    FREEZE_EPO = 0
+    WARMUP_EPO = 2
+    COSINE_EPO = EPOCHS - FREEZE_EPO - WARMUP_EPO
+    
+    # save_model_path
+    MODEL_PATH_BERT = f"{BERT_MODEL_NAME.rsplit('/', 1)[-1]}_epoch{EPOCHS}-bs{BATCH_SIZE}x{ACCUM_ITER}_margin_{MARGIN}.pt"

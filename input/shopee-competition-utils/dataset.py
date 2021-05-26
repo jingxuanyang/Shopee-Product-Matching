@@ -59,3 +59,24 @@ class ShopeeImageDataset(torch.utils.data.Dataset):
             image = augmented['image']     
                 
         return image,torch.tensor(1)
+
+class TitleDataset(torch.utils.data.Dataset):
+    def __init__(self, df, text_column, label_column):
+        texts = df[text_column]
+        self.labels = df[label_column].values
+        
+        self.titles = []
+        for title in texts:
+            title = title.encode('utf-8').decode("unicode_escape")
+            title = title.encode('ascii', 'ignore').decode("unicode_escape")
+            title = title.lower()
+            self.titles.append(title)
+
+    def __len__(self):
+        return len(self.titles)
+
+    def __getitem__(self, idx):
+        text = self.titles[idx]
+        label = torch.tensor(self.labels[idx])
+        return text, label
+        

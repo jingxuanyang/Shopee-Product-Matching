@@ -4,7 +4,7 @@ import numpy as np
 from augmentations import get_test_transforms, get_valid_transforms
 from dataset import ShopeeImageDataset
 from config import CFG
-from tqdm.notebook import tqdm
+from tqdm import tqdm
 
 def get_image_embeddings(df, model):
 
@@ -34,7 +34,6 @@ def get_image_embeddings(df, model):
     return image_embeddings
 
 def get_valid_embeddings(df, model):
-
     model.eval()
 
     image_dataset = ShopeeImageDataset(df,transform=get_valid_transforms())
@@ -61,3 +60,34 @@ def get_valid_embeddings(df, model):
     del embeds
     gc.collect()
     return image_embeddings
+
+def get_bert_embeddings(df, column, model, chunk=32):
+    model.eval()
+    
+    bert_embeddings = torch.zeros((df.shape[0], 768)).to(CFG.DEVICE)
+    for i in tqdm(list(range(0, df.shape[0], chunk)) + [df.shape[0]-chunk], desc="get_bert_embeddings", ncols=80):
+        titles = []
+        for title in df[column][i : i + chunk].values:
+            try:
+                title = title.encode('utf-8').decode("unicode_escape")
+                title = title.encode('ascii', 'ignore').decode("unicode_escape")
+            except:
+                pass
+            #title = text_punctuation(title)
+            title = title.lower()
+            titles.append(title)
+            
+        with torch.no_grad():
+            if CFG.USE_AMP:
+                with torch.cuda.amp.autocast():
+                    model_output = model(titles)
+            else:
+                model_output = model(titles)
+            
+        bert_embeddings[i : i + chunk] = model_output
+    bert_embeddings = bert_embeddings.detach().cpu().numpy()
+    del model, titles, model_output
+    gc.collect()
+    torch.cuda.empty_cache()
+    
+    return bert_embeddings

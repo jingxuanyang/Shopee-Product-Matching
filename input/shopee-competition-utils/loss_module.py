@@ -15,7 +15,7 @@ class ArcMarginProduct(nn.Module):
             cos(theta + m)
         """
     def __init__(self, in_features, out_features, s=30.0, m=0.50, easy_margin=False, ls_eps=0.0):
-        print('Using ArcFace')
+        # print('Using ArcFace')
         super(ArcMarginProduct, self).__init__()
         self.in_features = in_features
         self.out_features = out_features
@@ -33,7 +33,10 @@ class ArcMarginProduct(nn.Module):
 
     def forward(self, input, label):
         # --------------------------- cos(theta) & phi(theta) ---------------------------
-        cosine = F.linear(F.normalize(input), F.normalize(self.weight))
+        if CFG.USE_AMP:
+            cosine = F.linear(F.normalize(input), F.normalize(self.weight)).float()  # if CFG.USE_AMP
+        else:
+            cosine = F.linear(F.normalize(input), F.normalize(self.weight))
         sine = torch.sqrt(1.0 - torch.pow(cosine, 2))
         phi = cosine * self.cos_m - sine * self.sin_m
         if self.easy_margin:
