@@ -42,7 +42,6 @@ class CFG:
     MODEL_PATH_PREFIX = '../input/image-model-trained/'
     EMB_PATH_PREFIX = '../input/image-embeddings/'
     RESULTS_SAVE_PATH = '../input/shopee-competition-results/'
-    # TEXT_MODEL_PATH_PREFIX = './' # for testing
     TEXT_MODEL_PATH_PREFIX = '../input/text-model-trained/'
     
     MODEL_PATH = f'{MODEL_NAME}_{LOSS_MODULE}_face_epoch_8_bs_8_margin_{MARGIN}.pt'

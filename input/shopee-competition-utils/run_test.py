@@ -278,8 +278,8 @@ def run_bert_test_all():
         test_recall_df = pd.DataFrame(test_recall_list,columns=['arcface','arcface_min2','arcface_inb'])
         test_precision_df = pd.DataFrame(test_precision_list,columns=['arcface','arcface_min2','arcface_inb'])
 
-        test_result_dict[f"{CFG.MODEL_NAME.rsplit('/', 1)[-1]}_f1"] = test_f1_df
-        test_result_dict[f"{CFG.MODEL_NAME.rsplit('/', 1)[-1]}_recall"] = test_recall_df
-        test_result_dict[f"{CFG.MODEL_NAME.rsplit('/', 1)[-1]}_precision"] = test_precision_df
+        test_result_dict[f"{CFG.BERT_MODEL_NAME.rsplit('/', 1)[-1]}_f1"] = test_f1_df
+        test_result_dict[f"{CFG.BERT_MODEL_NAME.rsplit('/', 1)[-1]}_recall"] = test_recall_df
+        test_result_dict[f"{CFG.BERT_MODEL_NAME.rsplit('/', 1)[-1]}_precision"] = test_precision_df
 
     return test_result_dict
