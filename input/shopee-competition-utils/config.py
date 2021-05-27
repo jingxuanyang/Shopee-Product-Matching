@@ -45,6 +45,11 @@ class CFG:
     TEXT_MODEL_PATH_PREFIX = '../input/text-model-trained/'
     
     MODEL_PATH = f'{MODEL_NAME}_{LOSS_MODULE}_face_epoch_8_bs_8_margin_{MARGIN}.pt'
+    BEST_MODEL_PATHS = [f'{MODEL_NAMES[0]}_{LOSS_MODULE[0]}_face_epoch_8_bs_8_margin_{MARGIN}.pt',
+                        f'{MODEL_NAMES[1]}_{LOSS_MODULE[0]}_face_epoch_8_bs_8_margin_{MARGIN}.pt',
+                        f'{MODEL_NAMES[2]}_{LOSS_MODULE[0]}_face_epoch_8_bs_8_margin_{MARGIN}.pt',
+                        f'{MODEL_NAMES[3]}_{LOSS_MODULE[0]}_face_epoch_8_bs_8_margin_{MARGIN}.pt',
+                        f'{MODEL_NAMES[4]}_{LOSS_MODULE[0]}_face_epoch_8_bs_8_margin_{MARGIN}.pt']
 
     FC_DIM = 512
 
@@ -69,6 +74,7 @@ class CFG:
     MAX_LENGTH = 128
 
     BERT_MARGINS = [0.5,0.6,0.7,0.8]
+    BEST_BERT_MARGINS = [[0.5,0.6,0.6,0.8,0.6],[0.5,0.6,0.6,0.7,0.5]]
     FC_DIM_BERT = 768
     SEED_BERT = 412
     CLASSES_BERT = 6609
