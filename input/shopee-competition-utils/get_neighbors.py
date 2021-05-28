@@ -136,3 +136,18 @@ def get_union_neighbors(df, embeddings, threshold = 0.2, min2 = False):
     del nbrs, distances, indices
     gc.collect()
     return predictions
+
+def get_voting_predictions(df, distances, indices, threshold = 0.2, min2 = False):
+    predictions = []
+    for k in range(distances.shape[0]):
+        if min2:
+            idx = np.where(distances[k,] < CFG.BEST_THRESHOLD)[0]
+            ids = indices[k,idx]
+            if len(ids) <= 1 and distances[k,1] < threshold:
+                ids = np.append(ids,indices[k,1])
+        else:
+            idx = np.where(distances[k,] < threshold)[0]
+            ids = indices[k,idx]
+        predictions.append(df['posting_id'].iloc[ids].values)
+
+    return predictions
