@@ -6,7 +6,7 @@ from read_dataset import read_dataset
 from shopee_image_model import ShopeeModel
 from shopee_text_model import ShopeeBertModel
 from custom_activation import replace_activations, Mish
-from get_embeddings import get_image_embeddings, get_bert_embeddings
+from get_embeddings import get_image_embeddings, get_bert_embeddings, get_tfidf_embeddings
 from get_neighbors import get_image_neighbors
 from search_threshold import search_inb_threshold
 from seed_everything import seed_everything
@@ -283,3 +283,49 @@ def run_bert_test_all():
         test_result_dict[f"{CFG.BERT_MODEL_NAME.rsplit('/', 1)[-1]}_precision"] = test_precision_df
 
     return test_result_dict
+
+def run_tfidf_test():
+    _, valid_df, test_df = read_dataset()
+    result_list = [[0 for i in range(3)] for j in range(3)]
+    valid_embeddings = get_tfidf_embeddings(valid_df)
+    search_inb_threshold(valid_df,valid_embeddings,lower=40,upper=70)
+    
+    test_embeddings = get_tfidf_embeddings(test_df)
+    test_df = get_image_neighbors(test_df, test_embeddings, threshold=CFG.BEST_THRESHOLD)
+    test_f1 = test_df.f1.mean()
+    test_recall = test_df.recall.mean()
+    test_precision = test_df.precision.mean()
+    result_list[0][0] = test_f1
+    result_list[0][1] = test_recall
+    result_list[0][2] = test_precision
+    print(f'Test f1 score = {test_f1}, recall = {test_recall}, precision = {test_precision}')
+
+    # Min2
+    test_df = get_image_neighbors(test_df, test_embeddings, threshold=CFG.BEST_THRESHOLD_MIN2, min2=True)
+    test_f1 = test_df.f1.mean()
+    test_recall = test_df.recall.mean()
+    test_precision = test_df.precision.mean()
+    result_list[1][0] = test_f1
+    result_list[1][1] = test_recall
+    result_list[1][2] = test_precision
+    print(f'Test f1 score after min2 = {test_f1}, recall = {test_recall}, precision = {test_precision}')
+
+    # INB
+    new_valid_emb = blend_neighborhood(valid_df,valid_embeddings)
+    search_inb_threshold(valid_df,new_valid_emb)
+    print(f'CFG.BEST_THRESHOLD after INB is {CFG.BEST_THRESHOLD}')
+    print(f'CFG.BEST_THRESHOLD_MIN2 after INB is {CFG.BEST_THRESHOLD_MIN2}')
+
+    new_test_emb = blend_neighborhood(test_df,test_embeddings)
+    test_df = get_image_neighbors(test_df, new_test_emb, threshold=CFG.BEST_THRESHOLD_MIN2, min2 = True)
+    test_f1 = test_df.f1.mean()
+    test_recall = test_df.recall.mean()
+    test_precision = test_df.precision.mean()
+    result_list[2][0] = test_f1
+    result_list[2][1] = test_recall
+    result_list[2][2] = test_precision
+    print(f'Test f1 score after INB = {test_f1}, recall = {test_recall}, precision = {test_precision}')
+
+    result_df = pd.DataFrame(result_list,columns=['f1','recall','precision'])
+
+    return result_df

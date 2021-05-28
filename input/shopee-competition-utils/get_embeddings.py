@@ -1,10 +1,11 @@
 import gc
 import torch
 import numpy as np
+from tqdm import tqdm
+from sklearn.feature_extraction.text import TfidfVectorizer
 from augmentations import get_test_transforms, get_valid_transforms
 from dataset import ShopeeImageDataset
 from config import CFG
-from tqdm import tqdm
 
 def get_image_embeddings(df, model):
 
@@ -91,3 +92,13 @@ def get_bert_embeddings(df, column, model, chunk=32):
     torch.cuda.empty_cache()
     
     return bert_embeddings
+
+def get_tfidf_embeddings(df, max_features = 15000):
+    model = TfidfVectorizer(stop_words = 'english', binary = True, max_features = max_features)
+    text_embeddings = model.fit_transform(df['title']).toarray()
+    print(f'Our title text embedding shape is {text_embeddings.shape}')
+
+    del model
+    gc.collect()
+
+    return text_embeddings

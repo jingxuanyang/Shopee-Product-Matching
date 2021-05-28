@@ -3,11 +3,13 @@ import numpy as np
 import pandas as pd
 from config import CFG
 from read_dataset import read_dataset
-from get_neighbors import get_voting_nns, get_voting_neighbors
-from search_threshold import search_voting_threshold
+from get_neighbors import get_voting_nns, get_voting_neighbors, get_union_neighbors
+from search_threshold import search_voting_threshold, search_inb_threshold
 from seed_everything import seed_everything
 from shopee_text_model import ShopeeBertModel
-from get_embeddings import get_bert_embeddings
+from get_embeddings import get_bert_embeddings, get_tfidf_embeddings
+from blend_neighborhood import blend_neighborhood
+from criterion import precision_score, recall_score, f1_score
 
 def run_image_ensemble():
     """
@@ -244,5 +246,105 @@ def run_nfnet_sbert_ensemble():
     print(f'f1 score after min2 and voting = {test_f1}, recall = {test_recall}, precision = {test_precision}')
 
     result_df = pd.DataFrame(result_list, columns=['f1','recall','precision'])
+
+    return result_df
+
+def combine_predictions(row):
+    x = np.concatenate([row['image_predictions'], row['text_predictions']])
+    return ' '.join(np.unique(x))
+
+def run_tfidf_resnet_union():
+    seed_everything(CFG.SEED)
+    _, valid_df, test_df = read_dataset()
+    result_list = [[0 for i in range(3)] for j in range(3)]
+
+    # tf-idf
+    text_valid_embeddings = get_tfidf_embeddings(valid_df)
+    text_test_embeddings = get_tfidf_embeddings(test_df)
+
+    # resnet
+    CFG.LOSS_MODULE = CFG.LOSS_MODULES[0]
+    CFG.MODEL_NAME = CFG.MODEL_NAMES[0]
+    CFG.MARGIN = CFG.MARGINS[1]
+    CFG.MODEL_PATH = f'{CFG.MODEL_NAME}_{CFG.LOSS_MODULE}_face_epoch_8_bs_8_margin_{CFG.MARGIN}.pt'
+
+    TEST_EMBEDDING_PATH = CFG.EMB_PATH_PREFIX + CFG.MODEL_PATH[:-3] + '_test_embed.csv'
+    print(f'Loading {TEST_EMBEDDING_PATH} ...')
+    image_test_embeddings = np.loadtxt(TEST_EMBEDDING_PATH, delimiter=',')
+    VALID_EMBEDDING_PATH = CFG.EMB_PATH_PREFIX + CFG.MODEL_PATH[:-3] + '_valid_embed.csv'
+    print(f'Loading {VALID_EMBEDDING_PATH} ...')
+    image_valid_embeddings = np.loadtxt(VALID_EMBEDDING_PATH, delimiter=',')
+
+    # text predictions
+    search_inb_threshold(valid_df,text_valid_embeddings,lower=40,upper=70)
+    text_predictions = get_union_neighbors(test_df, text_test_embeddings, threshold=CFG.BEST_THRESHOLD)
+
+    # text predictions, min2
+    text_predictions_min2 = get_union_neighbors(test_df, text_test_embeddings, threshold=CFG.BEST_THRESHOLD_MIN2, min2=True)
+
+    # text predictions, inb
+    new_valid_emb = blend_neighborhood(valid_df,text_valid_embeddings)
+    search_inb_threshold(valid_df,new_valid_emb)
+    new_test_emb = blend_neighborhood(test_df,text_test_embeddings)
+    text_predictions_inb = get_union_neighbors(test_df, new_test_emb, threshold=CFG.BEST_THRESHOLD_MIN2, min2 = True)
+
+    # image predictions
+    search_inb_threshold(valid_df,image_valid_embeddings)
+    image_predictions = get_union_neighbors(test_df, image_test_embeddings, threshold=CFG.BEST_THRESHOLD)
+
+    # image predictions, min2
+    image_predictions_min2 = get_union_neighbors(test_df, image_test_embeddings, threshold=CFG.BEST_THRESHOLD_MIN2, min2=True)
+
+    # image predictions, inb
+    new_valid_emb = blend_neighborhood(valid_df,image_valid_embeddings)
+    search_inb_threshold(valid_df,new_valid_emb)
+    new_test_emb = blend_neighborhood(test_df,image_test_embeddings)
+    image_predictions_inb = get_union_neighbors(test_df, new_test_emb, threshold=CFG.BEST_THRESHOLD_MIN2, min2 = True)
+
+    test_df['image_predictions'] = image_predictions
+    test_df['text_predictions'] = text_predictions
+    test_df['pred_matches'] = test_df.apply(combine_predictions, axis = 1)
+    test_df['f1'] = f1_score(test_df['matches'], test_df['pred_matches'])
+    test_df['recall'] = recall_score(test_df['matches'], test_df['pred_matches'])
+    test_df['precision'] = precision_score(test_df['matches'], test_df['pred_matches'])
+    test_f1 = test_df.f1.mean()
+    test_recall = test_df.recall.mean()
+    test_precision = test_df.precision.mean()
+    result_list[0][0] = test_f1
+    result_list[0][1] = test_recall
+    result_list[0][2] = test_precision
+    print(f'Test f1 score = {test_f1}, recall = {test_recall}, precision = {test_precision}')
+
+    # Min2
+    test_df['image_predictions'] = image_predictions_min2
+    test_df['text_predictions'] = text_predictions_min2
+    test_df['pred_matches'] = test_df.apply(combine_predictions, axis = 1)
+    test_df['f1'] = f1_score(test_df['matches'], test_df['pred_matches'])
+    test_df['recall'] = recall_score(test_df['matches'], test_df['pred_matches'])
+    test_df['precision'] = precision_score(test_df['matches'], test_df['pred_matches'])
+    test_f1 = test_df.f1.mean()
+    test_recall = test_df.recall.mean()
+    test_precision = test_df.precision.mean()
+    result_list[1][0] = test_f1
+    result_list[1][1] = test_recall
+    result_list[1][2] = test_precision
+    print(f'Test f1 score after min2 = {test_f1}, recall = {test_recall}, precision = {test_precision}')
+
+    # INB
+    test_df['image_predictions'] = image_predictions_inb
+    test_df['text_predictions'] = text_predictions_inb
+    test_df['pred_matches'] = test_df.apply(combine_predictions, axis = 1)
+    test_df['f1'] = f1_score(test_df['matches'], test_df['pred_matches'])
+    test_df['recall'] = recall_score(test_df['matches'], test_df['pred_matches'])
+    test_df['precision'] = precision_score(test_df['matches'], test_df['pred_matches'])
+    test_f1 = test_df.f1.mean()
+    test_recall = test_df.recall.mean()
+    test_precision = test_df.precision.mean()
+    result_list[2][0] = test_f1
+    result_list[2][1] = test_recall
+    result_list[2][2] = test_precision
+    print(f'Test f1 score after INB = {test_f1}, recall = {test_recall}, precision = {test_precision}')
+
+    result_df = pd.DataFrame(result_list,columns=['f1','recall','precision'])
 
     return result_df
