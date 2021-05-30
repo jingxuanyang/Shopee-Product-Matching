@@ -2139,11 +2139,15 @@ INB 迭代邻域混合是基于嵌入空间特性的改进, 其在 Min2 的基�
 
 关于代码接口详见 \verb|README.md| 文件, 这里简要列出部分重要步骤. 按照 \verb|README.md| 中的说明配置好环境并下载数据集文件和最优模型之后, 执行
 
-\verb|~/bin$ python best_model_train.py|
+\verb|~/bin$ python best_model_inference.py|
 
 即可使用最优模型对本文对数据集进行处理得到的测试集进行预测并输出测试结果, 测试结果包含直接运行得到的三个评价指标数值, Min2 改进后的三个评价指标数值以及 INB 改进后的三个评价指标数值.
 
 训练最优模型可以使用如下命令, 训练时长约为半个小时, 注意训练完成后原本下载的最优模型会被新训练的模型替换, 因此要先运行上面的命令测试最优模型结果, 再运行下面的命令训练新模型替换原有模型.
+
+\verb|~/bin$ python best_model_train.py|
+
+使用新训练的模型对测试集进行预测并输出测试结果可以运行如下代码.
 
 \verb|~/bin$ python best_model_inference.py|
 
@@ -2159,7 +2163,7 @@ INB 迭代邻域混合是基于嵌入空间特性的改进, 其在 Min2 的基�
 
 针对仅利用图像信息进行检索, 本文建立了 resnet50, resnext50\_32x4d, densenet121, efficientnet\_b3, eca\_nfnet\_l0, 图像模型 Ensemble 等 6 个图像模型. 针对仅利用文本信息进行检索, 本文建立了 tf-idf, bert-base-multilingual-uncased, bert-base-indonesian-1.5G, distilbert-base-indonesian, paraphrase-xlm-r-multilingual-v1, paraphrase-distilroberta-base-v1, 文本模型 Ensemble 等 7 个文本模型以及 TF-IDF 与 ResNet 取并集, SBERT 与 NFNet 取并集, TF-IDF 与 ResNet 度量层输出融合, SBERT 与 NFNet 度量层输出融合, 图像 Ensemble 与 文本 Ensemble 取并集等 5 个图像文本融合模型, 共计 18 个模型. 从机器学习的角度出发, 本文基于数据分布特性和嵌入空间特性提出了 Min2 最少两个原则以及 INB 迭代邻域混合两种模型改进方法, 这两种改进方法都使得原有模型的性能有了较大的提升.
 
-针对数据集划分, 基于保证训练集, 验证集与测试集的数据保持相同分布的原则, 本文利用机器学习工具包 scikit-learn 提供的 \verb|GroupKFold| 函数将数据分为数量相等 5 个组, 并按组划分为 3:1:1 的三份, 分别为训练集, 验证集与测试集. 对于评价指标, 本文选择选择精确率, 召回率以及 F1 分数, 并且计算方式为按行计算并取平均值. 精确率可以表示找到的相似图片是否准确, 而召回率可以表示找到的相似图片全不全, 最终模型的性能评价采用 F1 分数这个精确率与召回率的综合评定指标来确定.
+针对数据集划分, 基于保证训练集, 验证集与测试集的数据保持相同分布的原则, 本文利用机器学习工具包 scikit-learn 提供的 \verb|GroupKFold| 函数将数据分为数量相等 5 个组, 并按组划分为 3:1:1 的三份, 分别为训练集, 验证集与测试集. 对于评价指标, 本文选择选择精确率, 召回率以及 F1 分数, 并且计算方式为按行计算并取平均值. 精确率可以表示找到的相似图片是否准确, 而召回率可以表示找到的相似图片是否全面, 最终模型的性能评价采用精确率与召回率的综合评定指标 F1 分数来确定.
 
 仅利用图像信息进行检索任务中, NFNet 模型性能最优, 仅利用文本信息进行检索任务中, SBERT 模型性能最优, 同时利用图像信息与文本信息进行检索任务中, NFNet 与 SBERT 强强联合进行度量层输出融合性能最优, 而且综合来看文本模型的 F1 分数均大于图像模型的 F1 分数. 所有的 18 个模型中, 以 F1 分数为评价依据, 性能最优的模型为 NFNet 模型 eca\_nfnet\_l0 与 SBERT 模型 paraphrase-xlm-r-multilingual-v1 进行度量层输出融合得到的模型, 其结果为 $\overline{F1}=0.888967,~\bar{R}=0.928442,~\bar{P}=0.893179$. 
 
