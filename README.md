@@ -1,7 +1,7 @@
 <!-- Author: Jingxuan Yang -->
 <!-- E-mail: yangjx20@mails.tsinghua.edu.cn -->
 
-# Shopee product matching
+# Shopee Product Matching
 
 ![GitHub Version](https://img.shields.io/github/release/jingxuanyang/Shopee-Product-Matching.svg)
 ![Repo Size](https://img.shields.io/github/repo-size/jingxuanyang/Shopee-Product-Matching.svg)
@@ -44,7 +44,7 @@ The directory of this project is as follows.
 + notebook/
   + This folder contains jupyter notebooks for training and inference of image models
 + notebook-image-text/
-  + This folder contains jupyter notebooks for ensembles of image and text model 
+  + This folder contains jupyter notebooks for ensembles of image and text models
 + notebook-text/
   + This folder contains jupyter notebooks for training and inference of text models
 + test/
