@@ -1,4 +1,10 @@
+<!-- Author: Jingxuan Yang -->
+<!-- E-mail: yangjx20@mails.tsinghua.edu.cn -->
+
 # Shopee product matching
+
+![GitHub Version](https://img.shields.io/github/release/jingxuanyang/Shopee-Product-Matching.svg)
+![Repo Size](https://img.shields.io/github/repo-size/jingxuanyang/Shopee-Product-Matching.svg)
 
 ## Introduction
 
