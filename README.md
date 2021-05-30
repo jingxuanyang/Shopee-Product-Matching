@@ -35,11 +35,11 @@ The directory of this project is as follows.
 + input/text-model-trained/
   + This folder stores trained text model (the best single model)
 + notebook/
-  + This folder contains jupyter notebooks of image model training and inference
+  + This folder contains jupyter notebooks for training and inference of image models
 + notebook-image-text/
-  + This folder contains jupyter notebooks of image and text model ensembles
+  + This folder contains jupyter notebooks for ensembles of image and text model 
 + notebook-text/
-  + This folder contains jupyter notebooks of text model training and inference
+  + This folder contains jupyter notebooks for training and inference of text models
 + test/
   + This folder includes test jupyter notebooks
 + README.md
