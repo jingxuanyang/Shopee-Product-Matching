@@ -19,7 +19,11 @@ def read_dataset():
     train_df = df[df['fold']!=CFG.TEST_FOLD].reset_index(drop=True)
     train_df = train_df[train_df['fold']!=CFG.VALID_FOLD].reset_index(drop=True)
     valid_df = df[df['fold']==CFG.VALID_FOLD].reset_index(drop=True)
-    test_df = df[df['fold']==CFG.TEST_FOLD].reset_index(drop=True)
+
+    if CFG.USE_TEST_CSV:
+        test_df = pd.read_csv(CFG.TEST_CSV)
+    else:
+        test_df = df[df['fold']==CFG.TEST_FOLD].reset_index(drop=True)
 
     train_df['label_group'] = labelencoder.fit_transform(train_df['label_group'])
 
