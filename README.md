@@ -10,36 +10,84 @@ The directory of this project is as follows.
 
 ```s
 |- bin/
-    |-
 |- input/
-    |- 
+  |- shopee-competition-utils/
+  |- shopee-product-matching/
+  |- text-model-trained/
+|- notebook/
+|- notebook-image-text/
+|- notebook-text/
 |- test/
-    |-
 |- README.md
 |- requirements.txt
 ```
 
+## File Descriptions
+
++ bin/
+  + This folder contains the executable code files
++ input/
+  + This folder includes all data and utilities of this project
++ input/shopee-competition-utils/
+  + This folder contains utilities of this project
++ input/shopee-product-matching/
+  + This folder contains all data files of this project
++ input/text-model-trained/
+  + This folder stores trained text model (the best single model)
++ notebook/
+  + This folder contains jupyter notebooks of image model training and inference
++ notebook-image-text/
+  + This folder contains jupyter notebooks of image and text model ensembles
++ notebook-text/
+  + This folder contains jupyter notebooks of text model training and inference
++ test/
+  + This folder includes test jupyter notebooks
++ README.md
+  + This file serves as user manual of this project
++ requirements.txt
+  + This file contains python packages used in this project
+
 ## Quick Start
 
-First, please check the following basic requirements. Note that you should have more GPU memory than the listed.
+First, please check the following basic requirements. Note that you should have GPU memory >= 10 GiB.
 
 + System: Ubuntu 18.04.4 LTS
 + Python: 3.8.3
 + GPU: Nvidia GeForce RTX 3080
 
-Second, please install required packages included in `requirements.txt` via `pip`.
+Then, please install required packages included in `requirements.txt` via `pip`.
 
 ```s
-pip install -r requirements.txt
+~$ pip install -r requirements.txt
 ```
 
-Third, you can get inference results predicted by pretrained model stored in `input/text-model-trained/paraphrase-xlm-r-multilingual-v1_epoch8-bs16x1_margin_0.8.pt` via following command.
+Second, download Shopee dataset into specific directory via `wget` and unzip it via `unzip`.
 
 ```s
-python bin/best_model_inference.py
+~$ cd input/shopee-product-matching/
+~/input/shopee-product-matching$ wget -O shopee-dataset https://cloud.tsinghua.edu.cn/f/5c7ba8c55e04478d86d9/?dl=1
+~/input/shopee-product-matching$ unzip shopee-dataset
 ```
 
-Expected output is as follows.
+Third, download pretrained model into specific directory via `wget` and unzip it via `unzip`.
+
+```s
+~/input/shopee-product-matching$ cd ..
+~/input$ cd text-model-trained/
+~/input/text-model-trained$ wget -O pretrained-model https://cloud.tsinghua.edu.cn/f/a6df401f7fd34248a7f9/?dl=1
+~/input/text-model-trained$ unzip pretrained-model
+```
+
+Then, you can get inference results predicted by the best performing pretrained model stored in `input/text-model-trained/paraphrase-xlm-r-multilingual-v1_epoch8-bs16x1_margin_0.8.pt` via following command.
+
+```s
+~/input/text-model-trained$ cd ..
+~/input$ cd ..
+~$ cd bin/
+~/bin$ python best_model_inference.py
+```
+
+Expected output is listed as follows.
 
 ```python
 2021-05-30 15:01:17.692841: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcudart.so.11.0
@@ -148,7 +196,7 @@ CFG.BEST_THRESHOLD_MIN2 after INB is 0.145
 Test f1 score after INB = 0.834544833312457, recall = 0.8656430033625991, precision = 0.8770051228664779
 ```
 
-Among the long output, these three lines are more important, which give inference results on test file.
+Among the long output, the following three lines are of the most importance, which give inference results on test dataset.
 
 ```python
 Test f1 score = 0.8211137129836418, recall = 0.8483214531160035, precision = 0.8724217517245711
@@ -156,16 +204,22 @@ Test f1 score after min2 = 0.8285356189862213, recall = 0.8627090001536798, prec
 Test f1 score after INB = 0.834544833312457, recall = 0.8656430033625991, precision = 0.8770051228664779
 ```
 
-Fourth, you can get the best image model trained and obtain the test results via following command. Note that once you run this command, the stored model `input/text-model-trained/paraphrase-xlm-r-multilingual-v1_epoch8-bs16x1_margin_0.8.pt` will be replaced by newly trained one.
+Fourth, you can get the best image model trained via following command. Note that once you run this command, the stored model `input/text-model-trained/paraphrase-xlm-r-multilingual-v1_epoch8-bs16x1_margin_0.8.pt` will be replaced by newly trained one.
 
 ```s
-python bin/best_model_train.py
+~/bin$ python best_model_train.py
 ```
 
-Then, you can use trained model to make inference on test file `input/shopee-product-matching/test.csv` via following command. Note that `test.csv` should be replaced with the file like `train.csv`. Specifically, `test.csv` should process `label_group` property and more than 50 samples, otherwise the python script can not compute f1 score and other criteria.
+Fifth, you can get inference results predicted by this newly trained model via following command.
 
 ```s
-python best_model_inference_using_test_csv.py
+~/bin$ python best_model_inference.py
+```
+
+What's more, you can also use this trained model to make inference on test file `input/shopee-product-matching/test.csv` via following command. Note that `test.csv` should be replaced with a file like `train.csv`. Specifically, `test.csv` should possess `label_group` property and include more than 50 samples, otherwise the following python script can not compute f1 score and other criteria, and thus you will get an error.
+
+```s
+~/bin$ python best_model_inference_using_test_csv.py
 ```
 
 Finally, if you have any question in running the codes in this project, please do not hesitate to email me: `yangjx20@mails.tsinghua.edu.cn`.

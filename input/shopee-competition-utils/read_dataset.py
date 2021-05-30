@@ -22,6 +22,9 @@ def read_dataset():
 
     if CFG.USE_TEST_CSV:
         test_df = pd.read_csv(CFG.TEST_CSV)
+        test_df['matches'] = test_df.label_group.map(test_df.groupby('label_group').posting_id.agg('unique').to_dict())
+        test_df['matches'] = test_df['matches'].apply(lambda x: ' '.join(x))
+        test_df['label_group'] = labelencoder.fit_transform(test_df['label_group'])
     else:
         test_df = df[df['fold']==CFG.TEST_FOLD].reset_index(drop=True)
 

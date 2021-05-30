@@ -5,7 +5,7 @@ from config import CFG
 from run_test import run_bert_test
 
 # choose which cuda to load model on
-CFG.DEVICE = 'cuda:1'
+CFG.DEVICE = 'cuda:0'
 CFG.BATCH_SIZE = 16
 
 # choose which model with what hyperparameters to use
