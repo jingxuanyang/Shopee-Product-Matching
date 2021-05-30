@@ -17,6 +17,7 @@ The directory of this project is as follows.
 
 ```s
 |- bin/
+|- doc/
 |- input/
   |- shopee-competition-utils/
   |- shopee-product-matching/
@@ -35,6 +36,8 @@ The directory of this project is as follows.
 
 + bin/
   + This folder contains the executable code files
++ doc/
+  + This folder contains the report of this project written with LaTeX
 + input/
   + This folder includes all data and utilities of this project
 + input/shopee-competition-utils/
