@@ -1,0 +1,1819 @@
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/W32TeX) (preloaded format=pdflatex 2020.9.9)  30 MAY 2021 21:16
+entering extended mode
+ restricted \write18 enabled.
+ file:line:error style messages enabled.
+ %&-line parsing enabled.
+**e:/GraduateCourses/PatternRecognition/Homeworks/project/doc/report
+(e:/GraduateCourses/PatternRecognition/Homeworks/project/doc/report.tex
+LaTeX2e <2020-02-02> patch level 5
+L3 programming layer <2020-09-06> (c:/texlive/2020/texmf-dist/tex/latex/base/article.cls
+Document Class: article 2019/12/20 v1.4l Standard LaTeX document class
+(c:/texlive/2020/texmf-dist/tex/latex/base/size12.clo
+File: size12.clo 2019/12/20 v1.4l Standard LaTeX file (size option)
+)
+\c@part=\count168
+\c@section=\count169
+\c@subsection=\count170
+\c@subsubsection=\count171
+\c@paragraph=\count172
+\c@subparagraph=\count173
+\c@figure=\count174
+\c@table=\count175
+\abovecaptionskip=\skip47
+\belowcaptionskip=\skip48
+\bibindent=\dimen134
+) (c:/texlive/2020/texmf-dist/tex/latex/ctex/ctex.sty (c:/texlive/2020/texmf-dist/tex/latex/l3kernel/expl3.sty
+Package: expl3 2020-09-06 L3 programming layer (loader) 
+ (c:/texlive/2020/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
+File: l3backend-pdftex.def 2020-09-01 L3 backend support: PDF output (pdfTeX)
+\l__kernel_color_stack_int=\count176
+\l__pdf_internal_box=\box45
+))
+Package: ctex 2020/08/23 v2.5.4 Chinese adapter in LaTeX (CTEX)
+ (c:/texlive/2020/texmf-dist/tex/latex/l3packages/xparse/xparse.sty
+Package: xparse 2020-05-15 L3 Experimental document command parser
+ (c:/texlive/2020/texmf-dist/tex/latex/l3packages/xparse/xparse-generic.tex
+\l__xparse_current_arg_int=\count177
+\g__xparse_grabber_int=\count178
+\l__xparse_m_args_int=\count179
+\l__xparse_v_nesting_int=\count180
+)) (c:/texlive/2020/texmf-dist/tex/latex/l3packages/l3keys2e/l3keys2e.sty
+Package: l3keys2e 2020-05-15 LaTeX2e option processing using LaTeX3 keys
+) (c:/texlive/2020/texmf-dist/tex/latex/ctex/ctexhook.sty
+Package: ctexhook 2020/08/23 v2.5.4 Document and package hooks (CTEX)
+) (c:/texlive/2020/texmf-dist/tex/latex/ctex/ctexpatch.sty
+Package: ctexpatch 2020/08/23 v2.5.4 Patching commands (CTEX)
+) (c:/texlive/2020/texmf-dist/tex/latex/base/fix-cm.sty
+Package: fix-cm 2015/01/14 v1.1t fixes to LaTeX
+ (c:/texlive/2020/texmf-dist/tex/latex/base/ts1enc.def
+File: ts1enc.def 2001/06/05 v3.0e (jk/car/fm) Standard LaTeX file
+LaTeX Font Info:    Redeclaring font encoding TS1 on input line 47.
+)) (c:/texlive/2020/texmf-dist/tex/latex/ms/everysel.sty
+Package: everysel 2011/10/28 v1.2 EverySelectfont Package (MS)
+)
+\l__ctex_tmp_int=\count181
+\l__ctex_tmp_box=\box46
+\l__ctex_tmp_dim=\dimen135
+\g__ctex_section_depth_int=\count182
+\g__ctex_font_size_int=\count183
+ (c:/texlive/2020/texmf-dist/tex/latex/ctex/config/ctexopts.cfg
+File: ctexopts.cfg 2020/08/23 v2.5.4 Option configuration file (CTEX)
+)
+
+Package ctex Warning: UTF8 will be used as the default encoding.
+
+(c:/texlive/2020/texmf-dist/tex/latex/ctex/engine/ctex-engine-pdftex.def
+File: ctex-engine-pdftex.def 2020/08/23 v2.5.4 (pdf)LaTeX adapter (CTEX)
+ (c:/texlive/2020/texmf-dist/tex/latex/cjk/texinput/CJKutf8.sty
+Package: CJKutf8 2015/04/18 4.8.4
+ (c:/texlive/2020/texmf-dist/tex/generic/iftex/ifpdf.sty
+Package: ifpdf 2019/10/25 v3.4 ifpdf legacy package. Use iftex instead.
+ (c:/texlive/2020/texmf-dist/tex/generic/iftex/iftex.sty
+Package: iftex 2020/03/06 v1.0d TeX engine tests
+)) (c:/texlive/2020/texmf-dist/tex/latex/base/inputenc.sty
+Package: inputenc 2018/08/11 v1.3c Input encoding file
+\inpenc@prehook=\toks15
+\inpenc@posthook=\toks16
+) (c:/texlive/2020/texmf-dist/tex/latex/cjk/texinput/CJK.sty
+Package: CJK 2015/04/18 4.8.4
+ (c:/texlive/2020/texmf-dist/tex/latex/cjk/texinput/mule/MULEenc.sty
+Package: MULEenc 2015/04/18 4.8.4
+) (c:/texlive/2020/texmf-dist/tex/latex/cjk/texinput/CJK.enc
+File: CJK.enc 2015/04/18 4.8.4
+Now handling font encoding C00 ...
+... no UTF-8 mapping file for font encoding C00
+Now handling font encoding C05 ...
+... no UTF-8 mapping file for font encoding C05
+Now handling font encoding C09 ...
+... no UTF-8 mapping file for font encoding C09
+Now handling font encoding C10 ...
+... no UTF-8 mapping file for font encoding C10
+Now handling font encoding C20 ...
+... no UTF-8 mapping file for font encoding C20
+Now handling font encoding C19 ...
+... no UTF-8 mapping file for font encoding C19
+Now handling font encoding C40 ...
+... no UTF-8 mapping file for font encoding C40
+Now handling font encoding C42 ...
+... no UTF-8 mapping file for font encoding C42
+Now handling font encoding C43 ...
+... no UTF-8 mapping file for font encoding C43
+Now handling font encoding C50 ...
+... no UTF-8 mapping file for font encoding C50
+Now handling font encoding C52 ...
+... no UTF-8 mapping file for font encoding C52
+Now handling font encoding C49 ...
+... no UTF-8 mapping file for font encoding C49
+Now handling font encoding C60 ...
+... no UTF-8 mapping file for font encoding C60
+Now handling font encoding C61 ...
+... no UTF-8 mapping file for font encoding C61
+Now handling font encoding C63 ...
+... no UTF-8 mapping file for font encoding C63
+Now handling font encoding C64 ...
+... no UTF-8 mapping file for font encoding C64
+Now handling font encoding C65 ...
+... no UTF-8 mapping file for font encoding C65
+Now handling font encoding C70 ...
+... no UTF-8 mapping file for font encoding C70
+Now handling font encoding C31 ...
+... no UTF-8 mapping file for font encoding C31
+Now handling font encoding C32 ...
+... no UTF-8 mapping file for font encoding C32
+Now handling font encoding C33 ...
+... no UTF-8 mapping file for font encoding C33
+Now handling font encoding C34 ...
+... no UTF-8 mapping file for font encoding C34
+Now handling font encoding C35 ...
+... no UTF-8 mapping file for font encoding C35
+Now handling font encoding C36 ...
+... no UTF-8 mapping file for font encoding C36
+Now handling font encoding C37 ...
+... no UTF-8 mapping file for font encoding C37
+Now handling font encoding C80 ...
+... no UTF-8 mapping file for font encoding C80
+Now handling font encoding C81 ...
+... no UTF-8 mapping file for font encoding C81
+Now handling font encoding C01 ...
+... no UTF-8 mapping file for font encoding C01
+Now handling font encoding C11 ...
+... no UTF-8 mapping file for font encoding C11
+Now handling font encoding C21 ...
+... no UTF-8 mapping file for font encoding C21
+Now handling font encoding C41 ...
+... no UTF-8 mapping file for font encoding C41
+Now handling font encoding C62 ...
+... no UTF-8 mapping file for font encoding C62
+)
+LaTeX Info: Redefining \selectfont on input line 755.
+\CJK@indent=\box47
+) (c:/texlive/2020/texmf-dist/tex/latex/base/fontenc.sty
+Package: fontenc 2020/02/11 v2.0o Standard LaTeX package
+)) (c:/texlive/2020/texmf-dist/tex/latex/cjkpunct/CJKpunct.sty
+Package: CJKpunct 2016/05/14 4.8.4
+\CJKpunct@cnta=\count184
+\CJKpunct@cntb=\count185
+\CJKpunct@cntc=\count186
+\CJKpunct@cntd=\count187
+\CJKpunct@cnte=\count188
+   defining Unicode char U+2018 (decimal 8216)
+   defining Unicode char U+2019 (decimal 8217)
+   defining Unicode char U+201C (decimal 8220)
+   defining Unicode char U+201D (decimal 8221)
+   defining Unicode char U+2014 (decimal 8212)
+   defining Unicode char U+2026 (decimal 8230)
+ (c:/texlive/2020/texmf-dist/tex/latex/cjkpunct/CJKpunct.spa)) (c:/texlive/2020/texmf-dist/tex/latex/cjk/texinput/CJKspace.sty
+Package: CJKspace 2015/04/18 3.8.0
+) (c:/texlive/2020/texmf-dist/tex/latex/ctex/ctexspa.def
+File: ctexspa.def 2020/08/23 v2.5.4 Space info for CJKpunct (CTEX)
+)
+\ccwd=\dimen136
+\l__ctex_ccglue_skip=\skip49
+)
+\l__ctex_ziju_dim=\dimen137
+ (c:/texlive/2020/texmf-dist/tex/latex/zhnumber/zhnumber.sty
+Package: zhnumber 2020/05/01 v2.8 Typesetting numbers with Chinese glyphs
+\l__zhnum_scale_int=\count189
+\l__zhnum_byte_min_int=\count190
+\l__zhnum_byte_max_int=\count191
+ (c:/texlive/2020/texmf-dist/tex/latex/zhnumber/zhnumber-utf8.cfg
+File: zhnumber-utf8.cfg 2020/05/01 v2.8 Chinese numerals with UTF8 encoding
+)) (c:/texlive/2020/texmf-dist/tex/latex/ctex/scheme/ctex-scheme-chinese.def
+File: ctex-scheme-chinese.def 2020/08/23 v2.5.4 Chinese scheme for generic (CTEX)
+ (c:/texlive/2020/texmf-dist/tex/latex/ctex/config/ctex-name-utf8.cfg
+File: ctex-name-utf8.cfg 2020/08/23 v2.5.4 Caption with encoding UTF-8 (CTEX)
+)) (c:/texlive/2020/texmf-dist/tex/latex/tools/indentfirst.sty
+Package: indentfirst 1995/11/23 v1.03 Indent first paragraph (DPC)
+) (c:/texlive/2020/texmf-dist/tex/latex/ctex/fontset/ctex-fontset-windows.def
+File: ctex-fontset-windows.def 2020/08/23 v2.5.4 Windows fonts definition (CTEX)
+)) (c:/texlive/2020/texmf-dist/tex/latex/ctex/config/ctex.cfg
+File: ctex.cfg 2020/08/23 v2.5.4 Configuration file (CTEX)
+) (c:/texlive/2020/texmf-dist/tex/latex/amsmath/amsmath.sty
+Package: amsmath 2020/01/20 v2.17e AMS math features
+\@mathmargin=\skip50
+
+For additional information on amsmath, use the `?' option.
+(c:/texlive/2020/texmf-dist/tex/latex/amsmath/amstext.sty
+Package: amstext 2000/06/29 v2.01 AMS text
+ (c:/texlive/2020/texmf-dist/tex/latex/amsmath/amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0 generic functions
+\@emptytoks=\toks17
+\ex@=\dimen138
+)) (c:/texlive/2020/texmf-dist/tex/latex/amsmath/amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d Bold Symbols
+\pmbraise@=\dimen139
+) (c:/texlive/2020/texmf-dist/tex/latex/amsmath/amsopn.sty
+Package: amsopn 2016/03/08 v2.02 operator names
+)
+\inf@bad=\count192
+LaTeX Info: Redefining \frac on input line 227.
+\uproot@=\count193
+\leftroot@=\count194
+LaTeX Info: Redefining \overline on input line 389.
+\classnum@=\count195
+\DOTSCASE@=\count196
+LaTeX Info: Redefining \ldots on input line 486.
+LaTeX Info: Redefining \dots on input line 489.
+LaTeX Info: Redefining \cdots on input line 610.
+\Mathstrutbox@=\box48
+\strutbox@=\box49
+\big@size=\dimen140
+LaTeX Font Info:    Redeclaring font encoding OML on input line 733.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 734.
+\macc@depth=\count197
+\c@MaxMatrixCols=\count198
+\dotsspace@=\muskip16
+\c@parentequation=\count199
+\dspbrk@lvl=\count266
+\tag@help=\toks18
+\row@=\count267
+\column@=\count268
+\maxfields@=\count269
+\andhelp@=\toks19
+\eqnshift@=\dimen141
+\alignsep@=\dimen142
+\tagshift@=\dimen143
+\tagwidth@=\dimen144
+\totwidth@=\dimen145
+\lineht@=\dimen146
+\@envbody=\toks20
+\multlinegap=\skip51
+\multlinetaggap=\skip52
+\mathdisplay@stack=\toks21
+LaTeX Info: Redefining \[ on input line 2859.
+LaTeX Info: Redefining \] on input line 2860.
+) (c:/texlive/2020/texmf-dist/tex/latex/amscls/amsthm.sty
+Package: amsthm 2020/05/29 v2.20.6
+\thm@style=\toks22
+\thm@bodyfont=\toks23
+\thm@headfont=\toks24
+\thm@notefont=\toks25
+\thm@headpunct=\toks26
+\thm@preskip=\skip53
+\thm@postskip=\skip54
+\thm@headsep=\skip55
+\dth@everypar=\toks27
+) (c:/texlive/2020/texmf-dist/tex/latex/amsfonts/amssymb.sty
+Package: amssymb 2013/01/14 v3.01 AMS font symbols
+ (c:/texlive/2020/texmf-dist/tex/latex/amsfonts/amsfonts.sty
+Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
+\symAMSa=\mathgroup4
+\symAMSb=\mathgroup5
+LaTeX Font Info:    Redeclaring math symbol \hbar on input line 98.
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
+)) (c:/texlive/2020/texmf-dist/tex/latex/tools/bm.sty
+Package: bm 2019/07/24 v1.2d Bold Symbol Support (DPC/FMi)
+\symboldoperators=\mathgroup6
+\symboldletters=\mathgroup7
+\symboldsymbols=\mathgroup8
+LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 141.
+LaTeX Info: Redefining \bm on input line 209.
+) (c:/texlive/2020/texmf-dist/tex/latex/pgf/frontendlayer/tikz.sty (c:/texlive/2020/texmf-dist/tex/latex/pgf/basiclayer/pgf.sty (c:/texlive/2020/texmf-dist/tex/latex/pgf/utilities/pgfrcs.sty (c:/texlive/2020/texmf-dist/tex/generic/pgf/utilities/pgfutil-common.tex
+\pgfutil@everybye=\toks28
+\pgfutil@tempdima=\dimen147
+\pgfutil@tempdimb=\dimen148
+ (c:/texlive/2020/texmf-dist/tex/generic/pgf/utilities/pgfutil-common-lists.tex)) (c:/texlive/2020/texmf-dist/tex/generic/pgf/utilities/pgfutil-latex.def
+\pgfutil@abb=\box50
+ (c:/texlive/2020/texmf-dist/tex/latex/ms/everyshi.sty
+Package: everyshi 2001/05/15 v3.00 EveryShipout Package (MS)
+)) (c:/texlive/2020/texmf-dist/tex/generic/pgf/utilities/pgfrcs.code.tex (c:/texlive/2020/texmf-dist/tex/generic/pgf/pgf.revision.tex)
+Package: pgfrcs 2020/01/08 v3.1.5b (3.1.5b)
+))
+Package: pgf 2020/01/08 v3.1.5b (3.1.5b)
+ (c:/texlive/2020/texmf-dist/tex/latex/pgf/basiclayer/pgfcore.sty (c:/texlive/2020/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2019/11/30 v1.2a Enhanced LaTeX Graphics (DPC,SPQR)
+ (c:/texlive/2020/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks29
+) (c:/texlive/2020/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2019/11/30 v1.4a Standard LaTeX Graphics (DPC,SPQR)
+ (c:/texlive/2020/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
+) (c:/texlive/2020/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 105.
+ (c:/texlive/2020/texmf-dist/tex/latex/graphics-def/pdftex.def
+File: pdftex.def 2020/08/26 v1.2 Graphics/color driver for pdftex
+))
+\Gin@req@height=\dimen149
+\Gin@req@width=\dimen150
+) (c:/texlive/2020/texmf-dist/tex/latex/pgf/systemlayer/pgfsys.sty (c:/texlive/2020/texmf-dist/tex/generic/pgf/systemlayer/pgfsys.code.tex
+Package: pgfsys 2020/01/08 v3.1.5b (3.1.5b)
+ (c:/texlive/2020/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex
+\pgfkeys@pathtoks=\toks30
+\pgfkeys@temptoks=\toks31
+ (c:/texlive/2020/texmf-dist/tex/generic/pgf/utilities/pgfkeysfiltered.code.tex
+\pgfkeys@tmptoks=\toks32
+))
+\pgf@x=\dimen151
+\pgf@y=\dimen152
+\pgf@xa=\dimen153
+\pgf@ya=\dimen154
+\pgf@xb=\dimen155
+\pgf@yb=\dimen156
+\pgf@xc=\dimen157
+\pgf@yc=\dimen158
+\pgf@xd=\dimen159
+\pgf@yd=\dimen160
+\w@pgf@writea=\write3
+\r@pgf@reada=\read2
+\c@pgf@counta=\count270
+\c@pgf@countb=\count271
+\c@pgf@countc=\count272
+\c@pgf@countd=\count273
+\t@pgf@toka=\toks33
+\t@pgf@tokb=\toks34
+\t@pgf@tokc=\toks35
+\pgf@sys@id@count=\count274
+ (c:/texlive/2020/texmf-dist/tex/generic/pgf/systemlayer/pgf.cfg
+File: pgf.cfg 2020/01/08 v3.1.5b (3.1.5b)
+)
+Driver file for pgf: pgfsys-pdftex.def
+ (c:/texlive/2020/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-pdftex.def
+File: pgfsys-pdftex.def 2020/01/08 v3.1.5b (3.1.5b)
+ (c:/texlive/2020/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-common-pdf.def
+File: pgfsys-common-pdf.def 2020/01/08 v3.1.5b (3.1.5b)
+))) (c:/texlive/2020/texmf-dist/tex/generic/pgf/systemlayer/pgfsyssoftpath.code.tex
+File: pgfsyssoftpath.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+\pgfsyssoftpath@smallbuffer@items=\count275
+\pgfsyssoftpath@bigbuffer@items=\count276
+) (c:/texlive/2020/texmf-dist/tex/generic/pgf/systemlayer/pgfsysprotocol.code.tex
+File: pgfsysprotocol.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+)) (c:/texlive/2020/texmf-dist/tex/latex/xcolor/xcolor.sty
+Package: xcolor 2016/05/11 v2.12 LaTeX color extensions (UK)
+ (c:/texlive/2020/texmf-dist/tex/latex/graphics-cfg/color.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package xcolor Info: Driver file: pdftex.def on input line 225.
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1348.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1352.
+Package xcolor Info: Model `RGB' extended on input line 1364.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1366.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1367.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1368.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1369.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1370.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1371.
+) (c:/texlive/2020/texmf-dist/tex/generic/pgf/basiclayer/pgfcore.code.tex
+Package: pgfcore 2020/01/08 v3.1.5b (3.1.5b)
+ (c:/texlive/2020/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex (c:/texlive/2020/texmf-dist/tex/generic/pgf/math/pgfmathcalc.code.tex (c:/texlive/2020/texmf-dist/tex/generic/pgf/math/pgfmathutil.code.tex) (c:/texlive/2020/texmf-dist/tex/generic/pgf/math/pgfmathparser.code.tex
+\pgfmath@dimen=\dimen161
+\pgfmath@count=\count277
+\pgfmath@box=\box51
+\pgfmath@toks=\toks36
+\pgfmath@stack@operand=\toks37
+\pgfmath@stack@operation=\toks38
+) (c:/texlive/2020/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.code.tex (c:/texlive/2020/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.basic.code.tex) (c:/texlive/2020/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.trigonometric.code.tex) (c:/texlive/2020/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.random.code.tex) (c:/texlive/2020/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.comparison.code.tex) (c:/texlive/2020/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.base.code.tex) (c:/texlive/2020/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.round.code.tex) (c:/texlive/2020/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.misc.code.tex) (c:/texlive/2020/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.integerarithmetics.code.tex))) (c:/texlive/2020/texmf-dist/tex/generic/pgf/math/pgfmathfloat.code.tex
+\c@pgfmathroundto@lastzeros=\count278
+)) (c:/texlive/2020/texmf-dist/tex/generic/pgf/math/pgfint.code.tex) (c:/texlive/2020/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepoints.code.tex
+File: pgfcorepoints.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+\pgf@picminx=\dimen162
+\pgf@picmaxx=\dimen163
+\pgf@picminy=\dimen164
+\pgf@picmaxy=\dimen165
+\pgf@pathminx=\dimen166
+\pgf@pathmaxx=\dimen167
+\pgf@pathminy=\dimen168
+\pgf@pathmaxy=\dimen169
+\pgf@xx=\dimen170
+\pgf@xy=\dimen171
+\pgf@yx=\dimen172
+\pgf@yy=\dimen173
+\pgf@zx=\dimen174
+\pgf@zy=\dimen175
+) (c:/texlive/2020/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathconstruct.code.tex
+File: pgfcorepathconstruct.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+\pgf@path@lastx=\dimen176
+\pgf@path@lasty=\dimen177
+) (c:/texlive/2020/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathusage.code.tex
+File: pgfcorepathusage.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+\pgf@shorten@end@additional=\dimen178
+\pgf@shorten@start@additional=\dimen179
+) (c:/texlive/2020/texmf-dist/tex/generic/pgf/basiclayer/pgfcorescopes.code.tex
+File: pgfcorescopes.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+\pgfpic=\box52
+\pgf@hbox=\box53
+\pgf@layerbox@main=\box54
+\pgf@picture@serial@count=\count279
+) (c:/texlive/2020/texmf-dist/tex/generic/pgf/basiclayer/pgfcoregraphicstate.code.tex
+File: pgfcoregraphicstate.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+\pgflinewidth=\dimen180
+) (c:/texlive/2020/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretransformations.code.tex
+File: pgfcoretransformations.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+\pgf@pt@x=\dimen181
+\pgf@pt@y=\dimen182
+\pgf@pt@temp=\dimen183
+) (c:/texlive/2020/texmf-dist/tex/generic/pgf/basiclayer/pgfcorequick.code.tex
+File: pgfcorequick.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+) (c:/texlive/2020/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreobjects.code.tex
+File: pgfcoreobjects.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+) (c:/texlive/2020/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathprocessing.code.tex
+File: pgfcorepathprocessing.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+) (c:/texlive/2020/texmf-dist/tex/generic/pgf/basiclayer/pgfcorearrows.code.tex
+File: pgfcorearrows.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+\pgfarrowsep=\dimen184
+) (c:/texlive/2020/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreshade.code.tex
+File: pgfcoreshade.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+\pgf@max=\dimen185
+\pgf@sys@shading@range@num=\count280
+\pgf@shadingcount=\count281
+) (c:/texlive/2020/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreimage.code.tex
+File: pgfcoreimage.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+ (c:/texlive/2020/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreexternal.code.tex
+File: pgfcoreexternal.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+\pgfexternal@startupbox=\box55
+)) (c:/texlive/2020/texmf-dist/tex/generic/pgf/basiclayer/pgfcorelayers.code.tex
+File: pgfcorelayers.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+) (c:/texlive/2020/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretransparency.code.tex
+File: pgfcoretransparency.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+) (c:/texlive/2020/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepatterns.code.tex
+File: pgfcorepatterns.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+) (c:/texlive/2020/texmf-dist/tex/generic/pgf/basiclayer/pgfcorerdf.code.tex
+File: pgfcorerdf.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+))) (c:/texlive/2020/texmf-dist/tex/generic/pgf/modules/pgfmoduleshapes.code.tex
+File: pgfmoduleshapes.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+\pgfnodeparttextbox=\box56
+) (c:/texlive/2020/texmf-dist/tex/generic/pgf/modules/pgfmoduleplot.code.tex
+File: pgfmoduleplot.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+) (c:/texlive/2020/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version-0-65.sty
+Package: pgfcomp-version-0-65 2020/01/08 v3.1.5b (3.1.5b)
+\pgf@nodesepstart=\dimen186
+\pgf@nodesepend=\dimen187
+) (c:/texlive/2020/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version-1-18.sty
+Package: pgfcomp-version-1-18 2020/01/08 v3.1.5b (3.1.5b)
+)) (c:/texlive/2020/texmf-dist/tex/latex/pgf/utilities/pgffor.sty (c:/texlive/2020/texmf-dist/tex/latex/pgf/utilities/pgfkeys.sty (c:/texlive/2020/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex)) (c:/texlive/2020/texmf-dist/tex/latex/pgf/math/pgfmath.sty (c:/texlive/2020/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex)) (c:/texlive/2020/texmf-dist/tex/generic/pgf/utilities/pgffor.code.tex
+Package: pgffor 2020/01/08 v3.1.5b (3.1.5b)
+ (c:/texlive/2020/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex)
+\pgffor@iter=\dimen188
+\pgffor@skip=\dimen189
+\pgffor@stack=\toks39
+\pgffor@toks=\toks40
+)) (c:/texlive/2020/texmf-dist/tex/generic/pgf/frontendlayer/tikz/tikz.code.tex
+Package: tikz 2020/01/08 v3.1.5b (3.1.5b)
+ (c:/texlive/2020/texmf-dist/tex/generic/pgf/libraries/pgflibraryplothandlers.code.tex
+File: pgflibraryplothandlers.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+\pgf@plot@mark@count=\count282
+\pgfplotmarksize=\dimen190
+)
+\tikz@lastx=\dimen191
+\tikz@lasty=\dimen192
+\tikz@lastxsaved=\dimen193
+\tikz@lastysaved=\dimen194
+\tikz@lastmovetox=\dimen195
+\tikz@lastmovetoy=\dimen196
+\tikzleveldistance=\dimen197
+\tikzsiblingdistance=\dimen198
+\tikz@figbox=\box57
+\tikz@figbox@bg=\box58
+\tikz@tempbox=\box59
+\tikz@tempbox@bg=\box60
+\tikztreelevel=\count283
+\tikznumberofchildren=\count284
+\tikznumberofcurrentchild=\count285
+\tikz@fig@count=\count286
+ (c:/texlive/2020/texmf-dist/tex/generic/pgf/modules/pgfmodulematrix.code.tex
+File: pgfmodulematrix.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+\pgfmatrixcurrentrow=\count287
+\pgfmatrixcurrentcolumn=\count288
+\pgf@matrix@numberofcolumns=\count289
+)
+\tikz@expandcount=\count290
+ (c:/texlive/2020/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarytopaths.code.tex
+File: tikzlibrarytopaths.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+))) (c:/texlive/2020/texmf-dist/tex/latex/tools/tabularx.sty
+Package: tabularx 2020/01/15 v2.11c `tabularx' package (DPC)
+ (c:/texlive/2020/texmf-dist/tex/latex/tools/array.sty
+Package: array 2019/08/31 v2.4l Tabular extension package (FMi)
+\col@sep=\dimen199
+\ar@mcellbox=\box61
+\extrarowheight=\dimen256
+\NC@list=\toks41
+\extratabsurround=\skip56
+\backup@length=\skip57
+\ar@cellbox=\box62
+)
+\TX@col@width=\dimen257
+\TX@old@table=\dimen258
+\TX@old@col=\dimen259
+\TX@target=\dimen260
+\TX@delta=\dimen261
+\TX@cols=\count291
+\TX@ftn=\toks42
+) (c:/texlive/2020/texmf-dist/tex/latex/booktabs/booktabs.sty
+Package: booktabs 2020/01/12 v1.61803398 Publication quality tables
+\heavyrulewidth=\dimen262
+\lightrulewidth=\dimen263
+\cmidrulewidth=\dimen264
+\belowrulesep=\dimen265
+\belowbottomsep=\dimen266
+\aboverulesep=\dimen267
+\abovetopsep=\dimen268
+\cmidrulesep=\dimen269
+\cmidrulekern=\dimen270
+\defaultaddspace=\dimen271
+\@cmidla=\count292
+\@cmidlb=\count293
+\@aboverulesep=\dimen272
+\@belowrulesep=\dimen273
+\@thisruleclass=\count294
+\@lastruleclass=\count295
+\@thisrulewidth=\dimen274
+) (c:/texlive/2020/texmf-dist/tex/latex/multirow/multirow.sty
+Package: multirow 2019/05/31 v2.5 Span multiple rows of a table
+\multirow@colwidth=\skip58
+\multirow@cntb=\count296
+\multirow@dima=\skip59
+\bigstrutjot=\dimen275
+) (c:/texlive/2020/texmf-dist/tex/latex/graphics/rotating.sty
+Package: rotating 2016/08/11 v2.16d rotated objects in LaTeX
+ (c:/texlive/2020/texmf-dist/tex/latex/base/ifthen.sty
+Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
+)
+\c@r@tfl@t=\count297
+\rotFPtop=\skip60
+\rotFPbot=\skip61
+\rot@float@box=\box63
+\rot@mess@toks=\toks43
+) (c:/texlive/2020/texmf-dist/tex/latex/tools/enumerate.sty
+Package: enumerate 2015/07/23 v3.00 enumerate extensions (DPC)
+\@enLab=\toks44
+) (c:/texlive/2020/texmf-dist/tex/latex/listings/listings.sty
+\lst@mode=\count298
+\lst@gtempboxa=\box64
+\lst@token=\toks45
+\lst@length=\count299
+\lst@currlwidth=\dimen276
+\lst@column=\count300
+\lst@pos=\count301
+\lst@lostspace=\dimen277
+\lst@width=\dimen278
+\lst@newlines=\count302
+\lst@lineno=\count303
+\lst@maxwidth=\dimen279
+ (c:/texlive/2020/texmf-dist/tex/latex/listings/lstmisc.sty
+File: lstmisc.sty 2020/03/24 1.8d (Carsten Heinz)
+\c@lstnumber=\count304
+\lst@skipnumbers=\count305
+\lst@framebox=\box65
+) (c:/texlive/2020/texmf-dist/tex/latex/listings/listings.cfg
+File: listings.cfg 2020/03/24 1.8d listings configuration
+))
+Package: listings 2020/03/24 1.8d (Carsten Heinz)
+ (c:/texlive/2020/texmf-dist/tex/latex/listings/lstlang1.sty
+File: lstlang1.sty 2020/03/24 1.8d listings language file
+) (c:/texlive/2020/texmf-dist/tex/latex/hyperref/hyperref.sty
+Package: hyperref 2020-05-15 v7.00e Hypertext links for LaTeX
+ (c:/texlive/2020/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty
+Package: ltxcmds 2019/12/15 v1.24 LaTeX kernel commands for general use (HO)
+) (c:/texlive/2020/texmf-dist/tex/generic/pdftexcmds/pdftexcmds.sty
+Package: pdftexcmds 2020-06-27 v0.33 Utility functions of pdfTeX for LuaTeX (HO)
+ (c:/texlive/2020/texmf-dist/tex/generic/infwarerr/infwarerr.sty
+Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
+)
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+) (c:/texlive/2020/texmf-dist/tex/generic/kvsetkeys/kvsetkeys.sty
+Package: kvsetkeys 2019/12/15 v1.18 Key value parser (HO)
+) (c:/texlive/2020/texmf-dist/tex/generic/kvdefinekeys/kvdefinekeys.sty
+Package: kvdefinekeys 2019-12-19 v1.6 Define keys (HO)
+) (c:/texlive/2020/texmf-dist/tex/generic/pdfescape/pdfescape.sty
+Package: pdfescape 2019/12/09 v1.15 Implements pdfTeX's escape features (HO)
+) (c:/texlive/2020/texmf-dist/tex/latex/hycolor/hycolor.sty
+Package: hycolor 2020-01-27 v1.10 Color options for hyperref/bookmark (HO)
+) (c:/texlive/2020/texmf-dist/tex/latex/letltxmacro/letltxmacro.sty
+Package: letltxmacro 2019/12/03 v1.6 Let assignment for LaTeX macros (HO)
+) (c:/texlive/2020/texmf-dist/tex/latex/auxhook/auxhook.sty
+Package: auxhook 2019-12-17 v1.6 Hooks for auxiliary files (HO)
+) (c:/texlive/2020/texmf-dist/tex/latex/kvoptions/kvoptions.sty
+Package: kvoptions 2019/11/29 v3.13 Key value format for package options (HO)
+)
+\@linkdim=\dimen280
+\Hy@linkcounter=\count306
+\Hy@pagecounter=\count307
+ (c:/texlive/2020/texmf-dist/tex/latex/hyperref/pd1enc.def
+File: pd1enc.def 2020-05-15 v7.00e Hyperref: PDFDocEncoding definition (HO)
+Now handling font encoding PD1 ...
+... no UTF-8 mapping file for font encoding PD1
+) (c:/texlive/2020/texmf-dist/tex/generic/intcalc/intcalc.sty
+Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
+) (c:/texlive/2020/texmf-dist/tex/generic/etexcmds/etexcmds.sty
+Package: etexcmds 2019/12/15 v1.7 Avoid name clashes with e-TeX commands (HO)
+)
+\Hy@SavedSpaceFactor=\count308
+Package hyperref Info: Option `unicode' set `true' on input line 4338.
+ (c:/texlive/2020/texmf-dist/tex/latex/hyperref/puenc.def
+File: puenc.def 2020-05-15 v7.00e Hyperref: PDF Unicode definition (HO)
+Now handling font encoding PU ...
+... no UTF-8 mapping file for font encoding PU
+)
+Package hyperref Info: Hyper figures OFF on input line 4464.
+Package hyperref Info: Link nesting OFF on input line 4469.
+Package hyperref Info: Hyper index ON on input line 4472.
+Package hyperref Info: Plain pages OFF on input line 4479.
+Package hyperref Info: Backreferencing OFF on input line 4484.
+Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
+Package hyperref Info: Bookmarks ON on input line 4717.
+\c@Hy@tempcnt=\count309
+ (c:/texlive/2020/texmf-dist/tex/latex/url/url.sty
+\Urlmuskip=\muskip17
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+)
+LaTeX Info: Redefining \url on input line 5076.
+\XeTeXLinkMargin=\dimen281
+ (c:/texlive/2020/texmf-dist/tex/generic/bitset/bitset.sty
+Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
+ (c:/texlive/2020/texmf-dist/tex/generic/bigintcalc/bigintcalc.sty
+Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO)
+))
+\Fld@menulength=\count310
+\Field@Width=\dimen282
+\Fld@charsize=\dimen283
+Package hyperref Info: Hyper figures OFF on input line 6347.
+Package hyperref Info: Link nesting OFF on input line 6352.
+Package hyperref Info: Hyper index ON on input line 6355.
+Package hyperref Info: backreferencing OFF on input line 6362.
+Package hyperref Info: Link coloring OFF on input line 6367.
+Package hyperref Info: Link coloring with OCG OFF on input line 6372.
+Package hyperref Info: PDF/A mode OFF on input line 6377.
+LaTeX Info: Redefining \ref on input line 6417.
+LaTeX Info: Redefining \pageref on input line 6421.
+ (c:/texlive/2020/texmf-dist/tex/generic/atbegshi/atbegshi.sty
+Package: atbegshi 2019/12/05 v1.19 At begin shipout hook (HO)
+)
+\Hy@abspage=\count311
+\c@Item=\count312
+\c@Hfootnote=\count313
+)
+Package hyperref Info: Driver (autodetected): hpdftex.
+ (c:/texlive/2020/texmf-dist/tex/latex/hyperref/hpdftex.def
+File: hpdftex.def 2020-05-15 v7.00e Hyperref driver for pdfTeX
+ (c:/texlive/2020/texmf-dist/tex/latex/atveryend/atveryend.sty
+Package: atveryend 2019-12-11 v1.11 Hooks at the very end of document (HO)
+Package atveryend Info: \enddocument detected (standard20110627).
+)
+\Fld@listcount=\count314
+\c@bookmark@seq@number=\count315
+ (c:/texlive/2020/texmf-dist/tex/latex/rerunfilecheck/rerunfilecheck.sty
+Package: rerunfilecheck 2019/12/05 v1.9 Rerun checks for auxiliary files (HO)
+ (c:/texlive/2020/texmf-dist/tex/generic/uniquecounter/uniquecounter.sty
+Package: uniquecounter 2019/12/15 v1.4 Provide unlimited unique counter (HO)
+)
+Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 286.
+)
+\Hy@SectionHShift=\skip62
+)
+Package hyperref Info: Option `breaklinks' set `true' on input line 44.
+Package hyperref Info: Option `colorlinks' set `true' on input line 44.
+ (c:/texlive/2020/texmf-dist/tex/latex/algorithms/algorithm.sty
+Package: algorithm 2009/08/24 v0.1 Document Style `algorithm' - floating environment
+ (c:/texlive/2020/texmf-dist/tex/latex/float/float.sty
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count316
+\float@exts=\toks46
+\float@box=\box66
+\@float@everytoks=\toks47
+\@floatcapt=\box67
+)
+\@float@every@algorithm=\toks48
+\c@algorithm=\count317
+) (c:/texlive/2020/texmf-dist/tex/latex/algorithms/algorithmic.sty
+Package: algorithmic 2009/08/24 v0.1 Document Style `algorithmic'
+\c@ALC@unique=\count318
+\c@ALC@line=\count319
+\c@ALC@rem=\count320
+\c@ALC@depth=\count321
+\ALC@tlm=\skip63
+\algorithmicindent=\skip64
+) (c:/texlive/2020/texmf-dist/tex/latex/natbib/natbib.sty
+Package: natbib 2010/09/13 8.31b (PWD, AO)
+\bibhang=\skip65
+\bibsep=\skip66
+LaTeX Info: Redefining \cite on input line 694.
+\c@NAT@ctr=\count322
+)
+\@input{macros.aux}
+\openout2 = `macros.aux'.
+
+(./macros.tex
+\c@theorem=\count323
+) (c:/texlive/2020/texmf-dist/tex/latex/cjk/texinput/UTF8/UTF8.bdg
+File: UTF8.bdg 2015/04/18 4.8.4
+) (c:/texlive/2020/texmf-dist/tex/latex/cjk/texinput/UTF8/UTF8.enc
+File: UTF8.enc 2015/04/18 4.8.4
+) (c:/texlive/2020/texmf-dist/tex/latex/cjk/texinput/UTF8/UTF8.chr
+File: UTF8.chr 2015/04/18 4.8.4
+) (./report.aux)
+\openout1 = `report.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 93.
+LaTeX Font Info:    ... okay on input line 93.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 93.
+LaTeX Font Info:    ... okay on input line 93.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 93.
+LaTeX Font Info:    ... okay on input line 93.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 93.
+LaTeX Font Info:    ... okay on input line 93.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 93.
+LaTeX Font Info:    ... okay on input line 93.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 93.
+LaTeX Font Info:    ... okay on input line 93.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 93.
+LaTeX Font Info:    ... okay on input line 93.
+LaTeX Font Info:    Checking defaults for C00/song/m/n on input line 93.
+LaTeX Font Info:    ... okay on input line 93.
+LaTeX Font Info:    Checking defaults for C05/song/m/n on input line 93.
+LaTeX Font Info:    ... okay on input line 93.
+LaTeX Font Info:    Checking defaults for C09/song/m/n on input line 93.
+LaTeX Font Info:    ... okay on input line 93.
+LaTeX Font Info:    Checking defaults for C10/song/m/n on input line 93.
+LaTeX Font Info:    ... okay on input line 93.
+LaTeX Font Info:    Checking defaults for C20/song/m/n on input line 93.
+LaTeX Font Info:    ... okay on input line 93.
+LaTeX Font Info:    Checking defaults for C19/song/m/n on input line 93.
+LaTeX Font Info:    ... okay on input line 93.
+LaTeX Font Info:    Checking defaults for C40/song/m/n on input line 93.
+LaTeX Font Info:    ... okay on input line 93.
+LaTeX Font Info:    Checking defaults for C42/song/m/n on input line 93.
+LaTeX Font Info:    ... okay on input line 93.
+LaTeX Font Info:    Checking defaults for C43/song/m/n on input line 93.
+LaTeX Font Info:    ... okay on input line 93.
+LaTeX Font Info:    Checking defaults for C50/song/m/n on input line 93.
+LaTeX Font Info:    ... okay on input line 93.
+LaTeX Font Info:    Checking defaults for C52/song/m/n on input line 93.
+LaTeX Font Info:    ... okay on input line 93.
+LaTeX Font Info:    Checking defaults for C49/song/m/n on input line 93.
+LaTeX Font Info:    ... okay on input line 93.
+LaTeX Font Info:    Checking defaults for C60/mj/m/n on input line 93.
+LaTeX Font Info:    ... okay on input line 93.
+LaTeX Font Info:    Checking defaults for C61/mj/m/n on input line 93.
+LaTeX Font Info:    ... okay on input line 93.
+LaTeX Font Info:    Checking defaults for C63/mj/m/n on input line 93.
+LaTeX Font Info:    ... okay on input line 93.
+LaTeX Font Info:    Checking defaults for C64/mj/m/n on input line 93.
+LaTeX Font Info:    ... okay on input line 93.
+LaTeX Font Info:    Checking defaults for C65/mj/m/n on input line 93.
+LaTeX Font Info:    ... okay on input line 93.
+LaTeX Font Info:    Checking defaults for C70/song/m/n on input line 93.
+LaTeX Font Info:    ... okay on input line 93.
+LaTeX Font Info:    Checking defaults for C31/song/m/n on input line 93.
+LaTeX Font Info:    ... okay on input line 93.
+LaTeX Font Info:    Checking defaults for C32/song/m/n on input line 93.
+LaTeX Font Info:    ... okay on input line 93.
+LaTeX Font Info:    Checking defaults for C33/song/m/n on input line 93.
+LaTeX Font Info:    ... okay on input line 93.
+LaTeX Font Info:    Checking defaults for C34/song/m/n on input line 93.
+LaTeX Font Info:    ... okay on input line 93.
+LaTeX Font Info:    Checking defaults for C35/song/m/n on input line 93.
+LaTeX Font Info:    ... okay on input line 93.
+LaTeX Font Info:    Checking defaults for C36/song/m/n on input line 93.
+LaTeX Font Info:    ... okay on input line 93.
+LaTeX Font Info:    Checking defaults for C37/song/m/n on input line 93.
+LaTeX Font Info:    ... okay on input line 93.
+LaTeX Font Info:    Checking defaults for C80/song/m/n on input line 93.
+LaTeX Font Info:    ... okay on input line 93.
+LaTeX Font Info:    Checking defaults for C81/song/m/n on input line 93.
+LaTeX Font Info:    ... okay on input line 93.
+LaTeX Font Info:    Checking defaults for C01/song/m/n on input line 93.
+LaTeX Font Info:    ... okay on input line 93.
+LaTeX Font Info:    Checking defaults for C11/song/m/n on input line 93.
+LaTeX Font Info:    ... okay on input line 93.
+LaTeX Font Info:    Checking defaults for C21/song/m/n on input line 93.
+LaTeX Font Info:    ... okay on input line 93.
+LaTeX Font Info:    Checking defaults for C41/song/m/n on input line 93.
+LaTeX Font Info:    ... okay on input line 93.
+LaTeX Font Info:    Checking defaults for C62/song/m/n on input line 93.
+LaTeX Font Info:    ... okay on input line 93.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 93.
+LaTeX Font Info:    ... okay on input line 93.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 93.
+LaTeX Font Info:    ... okay on input line 93.
+ ABD: EverySelectfont initializing macros
+LaTeX Info: Redefining \selectfont on input line 93.
+ ABD: EveryShipout initializing macros (c:/texlive/2020/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count324
+\scratchdimen=\dimen284
+\scratchbox=\box68
+\nofMPsegments=\count325
+\nofMParguments=\count326
+\everyMPshowfont=\toks49
+\MPscratchCnt=\count327
+\MPscratchDim=\dimen285
+\MPnumerator=\count328
+\makeMPintoPDFobject=\count329
+\everyMPtoPDFconversion=\toks50
+) (c:/texlive/2020/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
+Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
+ (c:/texlive/2020/texmf-dist/tex/latex/grfext/grfext.sty
+Package: grfext 2019/12/03 v1.3 Manage graphics extensions (HO)
+)
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 485.
+Package grfext Info: Graphics extension search list:
+(grfext)             [.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPEG,.JBIG2,.JB2,.eps]
+(grfext)             \AppendGraphicsExtensions on input line 504.
+ (c:/texlive/2020/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
+))
+\c@lstlisting=\count330
+\AtBeginShipoutBox=\box69
+Package hyperref Info: Link coloring ON on input line 93.
+ (c:/texlive/2020/texmf-dist/tex/latex/hyperref/nameref.sty
+Package: nameref 2019/09/16 v2.46 Cross-referencing by name of section
+ (c:/texlive/2020/texmf-dist/tex/latex/refcount/refcount.sty
+Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
+) (c:/texlive/2020/texmf-dist/tex/generic/gettitlestring/gettitlestring.sty
+Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
+)
+\c@section@level=\count331
+)
+LaTeX Info: Redefining \ref on input line 93.
+LaTeX Info: Redefining \pageref on input line 93.
+LaTeX Info: Redefining \nameref on input line 93.
+ (./report.out) (./report.out)
+\@outlinefile=\write4
+\openout4 = `report.out'.
+
+LaTeX Font Info:    Trying to load font information for C70+rm on input line 96.
+ (c:/texlive/2020/texmf-dist/tex/latex/ctex/fd/c70rm.fd
+File: c70rm.fd 2020/08/23 v2.5.4 Chinese font definition (CTEX)
+)
+LaTeX Font Info:    Trying to load font information for U+msa on input line 100.
+ (c:/texlive/2020/texmf-dist/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Trying to load font information for U+msb on input line 100.
+ (c:/texlive/2020/texmf-dist/tex/latex/amsfonts/umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
+Package CJKpunct Info: use punctuation spaces for family 'rm' with punctstyle (quanjiao) on input line 102.
+ (c:/texlive/2020/texmf-dist/tex/generic/ctex/zhmap/ctex-zhmap-windows.tex
+File: ctex-zhmap-windows.tex 2020/08/23 v2.5.4 Windows font map loader for pdfTeX and DVIPDFMx (CTEX)
+{c:/texlive/2020/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{UGBK.sfd}{Unicode.sfd}) [1
+
+
+
+] (./report.toc [2] [3] [4])
+\tf@toc=\write5
+\openout5 = `report.toc'.
+
+<./figures/TBIR.png, id=566, 953.7231pt x 270.0489pt>
+File: ./figures/TBIR.png Graphic file (type png)
+<use ./figures/TBIR.png>
+Package pdftex.def Info: ./figures/TBIR.png  used on input line 117.
+(pdftex.def)             Requested size: 341.43306pt x 96.67773pt.
+ [5]
+<./figures/CBIR.png, id=595, 654.0435pt x 736.1904pt>
+File: ./figures/CBIR.png Graphic file (type png)
+<use ./figures/CBIR.png>
+Package pdftex.def Info: ./figures/CBIR.png  used on input line 126.
+(pdftex.def)             Requested size: 227.62204pt x 256.21016pt.
+ [6pdfTeX warning (ext4): destination with the same identifier (name{figure.1}) has been already used, duplicate ignored
+
+\@EveryShipout@Output ...@Org@Shipout \box \@cclv 
+                                                  
+l.133 
+      pdfTeX warning (ext4): destination with the same identifier (name{figure.2}) has been already used, duplicate ignored
+
+\@EveryShipout@Output ...@Org@Shipout \box \@cclv 
+                                                  
+l.133 
+       <./figures/TBIR.png> <./figures/CBIR.png>] [7] [8] [9]
+Overfull \hbox (9.38481pt too wide) in paragraph at lines 184--184
+[]|\OT1/cmr/m/n/10 index| 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 186--186
+[]|\OT1/cmr/m/n/10 0000a68812bc7e98c
+ []
+
+
+Overfull \hbox (5.19757pt too wide) in paragraph at lines 186--186
+\OT1/cmr/m/n/10 42888dfb1c07da0.jpg| 
+ []
+
+
+Overfull \hbox (1.23344pt too wide) in paragraph at lines 186--186
+[]|\OT1/cmr/m/n/10 94974f937d4c2433| 
+ []
+
+
+Overfull \hbox (3.60722pt too wide) in paragraph at lines 187--187
+[]|\OT1/cmr/m/n/10 train[]3386243561| 
+ []
+
+
+Overfull \hbox (4.36423pt too wide) in paragraph at lines 187--187
+[]|\OT1/cmr/m/n/10 00039780dfc94d01db
+ []
+
+
+Overfull \hbox (3.60722pt too wide) in paragraph at lines 188--188
+[]|\OT1/cmr/m/n/10 train[]2288590299| 
+ []
+
+
+Overfull \hbox (3.80869pt too wide) in paragraph at lines 188--188
+[]|\OT1/cmr/m/n/10 000a190fdd715a2a36
+ []
+
+
+Overfull \hbox (1.23341pt too wide) in paragraph at lines 188--188
+[]|\OT1/cmr/m/n/10 b94cb00ed3e50f78| 
+ []
+
+
+Overfull \hbox (3.60722pt too wide) in paragraph at lines 189--189
+[]|\OT1/cmr/m/n/10 train[]2406599165| 
+ []
+
+
+Overfull \hbox (2.69754pt too wide) in paragraph at lines 189--189
+[]|\OT1/cmr/m/n/10 00117e4fc239b1b641
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 189--189
+[]|\OT1/cmr/m/n/10 Daster Batik Lengan
+ []
+
+
+Underfull \hbox (badness 1117) in paragraph at lines 189--189
+\OT1/cmr/m/n/10 pen-dek - Mo-tif Acak /
+ []
+
+
+Underfull \hbox (badness 2269) in paragraph at lines 189--189
+\OT1/cmr/m/n/10 Cam-pur - Leher Kanc-
+ []
+
+
+Underfull \hbox (badness 4660) in paragraph at lines 189--189
+\OT1/cmr/m/n/10 ing (DPT001-00) Batik
+ []
+
+
+Overfull \hbox (3.60722pt too wide) in paragraph at lines 190--190
+[]|\OT1/cmr/m/n/10 train[]3369186413| 
+ []
+
+
+Overfull \hbox (2.14195pt too wide) in paragraph at lines 190--190
+[]|\OT1/cmr/m/n/10 00136d1cf4edede020
+ []
+
+LaTeX Font Info:    Trying to load font information for OMS+cmr on input line 190.
+(c:/texlive/2020/texmf-dist/tex/latex/base/omscmr.fd
+File: omscmr.fd 2019/12/16 v2.5j Standard LaTeX font definitions
+)
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 190.
+
+Underfull \hbox (badness 10000) in paragraph at lines 190--190
+[]|\OT1/cmr/m/n/10 Nescafe \OMS/cmsy/m/n/10 n\OT1/cmr/m/n/10 xc3\OMS/cmsy/m/n/10 n\OT1/cmr/m/n/10 x89clair
+ []
+
+[10pdfTeX warning (ext4): destination with the same identifier (name{table.1}) has been already used, duplicate ignored
+
+\@EveryShipout@Output ...@Org@Shipout \box \@cclv 
+                                                  
+l.216 
+      ]
+<./figures/dist_label_group.png, id=742, 517.935pt x 279.29344pt>
+File: ./figures/dist_label_group.png Graphic file (type png)
+<use ./figures/dist_label_group.png>
+Package pdftex.def Info: ./figures/dist_label_group.png  used on input line 225.
+(pdftex.def)             Requested size: 341.43306pt x 184.12541pt.
+ [11pdfTeX warning (ext4): destination with the same identifier (name{table.2}) has been already used, duplicate ignored
+
+\@EveryShipout@Output ...@Org@Shipout \box \@cclv 
+                                                  
+l.256 
+      pdfTeX warning (ext4): destination with the same identifier (name{figure.3}) has been already used, duplicate ignored
+
+\@EveryShipout@Output ...@Org@Shipout \box \@cclv 
+                                                  
+l.256 
+       <./figures/dist_label_group.png>]
+<./figures/label_1141798720.jpg, id=754, 335.5737pt x 246.4407pt>
+File: ./figures/label_1141798720.jpg Graphic file (type jpg)
+<use ./figures/label_1141798720.jpg>
+Package pdftex.def Info: ./figures/label_1141798720.jpg  used on input line 261.
+(pdftex.def)             Requested size: 227.62204pt x 167.16757pt.
+<./figures/label_3113678103.jpg, id=755, 340.8735pt x 244.0317pt>
+File: ./figures/label_3113678103.jpg Graphic file (type jpg)
+<use ./figures/label_3113678103.jpg>
+Package pdftex.def Info: ./figures/label_3113678103.jpg  used on input line 267.
+(pdftex.def)             Requested size: 227.62204pt x 162.96045pt.
+<./figures/dist_title.png, id=757, 516.42938pt x 278.54062pt>
+File: ./figures/dist_title.png Graphic file (type png)
+<use ./figures/dist_title.png>
+Package pdftex.def Info: ./figures/dist_title.png  used on input line 277.
+(pdftex.def)             Requested size: 398.33858pt x 214.8552pt.
+
+Overfull \hbox (0.84889pt too wide) in paragraph at lines 291--291
+[]|\OT1/cmr/m/n/10 index| 
+ []
+
+<./figures/title_Kok.jpg, id=761, 348.1005pt x 248.3679pt>
+File: ./figures/title_Kok.jpg Graphic file (type jpg)
+<use ./figures/title_Kok.jpg>
+Package pdftex.def Info: ./figures/title_Kok.jpg  used on input line 313.
+(pdftex.def)             Requested size: 227.62204pt x 162.4074pt.
+<./figures/title_Baj.jpg, id=762, 352.9185pt x 245.9589pt>
+File: ./figures/title_Baj.jpg Graphic file (type jpg)
+<use ./figures/title_Baj.jpg>
+Package pdftex.def Info: ./figures/title_Baj.jpg  used on input line 319.
+(pdftex.def)             Requested size: 227.62204pt x 158.64038pt.
+[12pdfTeX warning (ext4): destination with the same identifier (name{table.3}) has been already used, duplicate ignored
+
+\@EveryShipout@Output ...@Org@Shipout \box \@cclv 
+                                                  
+l.326 
+      pdfTeX warning (ext4): destination with the same identifier (name{figure.4}) has been already used, duplicate ignored
+
+\@EveryShipout@Output ...@Org@Shipout \box \@cclv 
+                                                  
+l.326 
+      pdfTeX warning (ext4): destination with the same identifier (name{figure.5}) has been already used, duplicate ignored
+
+\@EveryShipout@Output ...@Org@Shipout \box \@cclv 
+                                                  
+l.326 
+       <./figures/label_1141798720.jpg> <./figures/label_3113678103.jpg>] [13pdfTeX warning (ext4): destination with the same identifier (name{figure.6}) has been already used, duplicate ignored
+
+\@EveryShipout@Output ...@Org@Shipout \box \@cclv 
+                                                  
+l.326 
+      pdfTeX warning (ext4): destination with the same identifier (name{table.4}) has been already used, duplicate ignored
+
+\@EveryShipout@Output ...@Org@Shipout \box \@cclv 
+                                                  
+l.326 
+       <./figures/dist_title.png>]
+<./figures/dist_title_length.png, id=780, 551.05875pt x 284.56313pt>
+File: ./figures/dist_title_length.png Graphic file (type png)
+<use ./figures/dist_title_length.png>
+Package pdftex.def Info: ./figures/dist_title_length.png  used on input line 329.
+(pdftex.def)             Requested size: 398.33858pt x 205.70593pt.
+<./figures/word_cloud.jpg, id=782, 2890.8pt x 2168.1pt>
+File: ./figures/word_cloud.jpg Graphic file (type jpg)
+<use ./figures/word_cloud.jpg>
+Package pdftex.def Info: ./figures/word_cloud.jpg  used on input line 338.
+(pdftex.def)             Requested size: 284.52756pt x 213.38213pt.
+<./figures/dist_image_phash.png, id=784, 517.18219pt x 276.28218pt>
+File: ./figures/dist_image_phash.png Graphic file (type png)
+<use ./figures/dist_image_phash.png>
+Package pdftex.def Info: ./figures/dist_image_phash.png  used on input line 347.
+(pdftex.def)             Requested size: 398.33858pt x 212.80116pt.
+ [14pdfTeX warning (ext4): destination with the same identifier (name{figure.7}) has been already used, duplicate ignored
+
+\@EveryShipout@Output ...@Org@Shipout \box \@cclv 
+                                                  
+l.357 
+      pdfTeX warning (ext4): destination with the same identifier (name{figure.8}) has been already used, duplicate ignored
+
+\@EveryShipout@Output ...@Org@Shipout \box \@cclv 
+                                                  
+l.357 
+      pdfTeX warning (ext4): destination with the same identifier (name{figure.9}) has been already used, duplicate ignored
+
+\@EveryShipout@Output ...@Org@Shipout \box \@cclv 
+                                                  
+l.357 
+       <./figures/title_Kok.jpg> <./figures/title_Baj.jpg> <./figures/dist_title_length.png>] [15pdfTeX warning (ext4): destination with the same identifier (name{figure.10}) has been already used, duplicate ignored
+
+\@EveryShipout@Output ...@Org@Shipout \box \@cclv 
+                                                  
+l.357 
+      pdfTeX warning (ext4): destination with the same identifier (name{figure.11}) has been already used, duplicate ignored
+
+\@EveryShipout@Output ...@Org@Shipout \box \@cclv 
+                                                  
+l.357 
+       <./figures/word_cloud.jpg> <./figures/dist_image_phash.png>]
+<./figures/block.pdf, id=800, 229.98422pt x 91.9184pt>
+File: ./figures/block.pdf Graphic file (type pdf)
+<use ./figures/block.pdf>
+Package pdftex.def Info: ./figures/block.pdf  used on input line 370.
+(pdftex.def)             Requested size: 284.52756pt x 113.72514pt.
+<./figures/block_deeper.pdf, id=803, 332.24126pt x 117.43875pt>
+File: ./figures/block_deeper.pdf Graphic file (type pdf)
+<use ./figures/block_deeper.pdf>
+Package pdftex.def Info: ./figures/block_deeper.pdf  used on input line 379.
+(pdftex.def)             Requested size: 341.43306pt x 120.69444pt.
+ [16pdfTeX warning (ext4): destination with the same identifier (name{figure.12}) has been already used, duplicate ignored
+
+\@EveryShipout@Output ...@Org@Shipout \box \@cclv 
+                                                  
+l.382 \end{figure}
+                   <./figures/block.pdf>]
+<./figures/resnet_shortcut.png, id=850, 683.55376pt x 429.605pt>
+File: ./figures/resnet_shortcut.png Graphic file (type png)
+<use ./figures/resnet_shortcut.png>
+Package pdftex.def Info: ./figures/resnet_shortcut.png  used on input line 388.
+(pdftex.def)             Requested size: 341.43306pt x 214.5922pt.
+ [17pdfTeX warning (ext4): destination with the same identifier (name{figure.13}) has been already used, duplicate ignored
+
+\@EveryShipout@Output ...@Org@Shipout \box \@cclv 
+                                                  
+l.400 
+      pdfTeX warning (ext4): destination with the same identifier (name{figure.14}) has been already used, duplicate ignored
+
+\@EveryShipout@Output ...@Org@Shipout \box \@cclv 
+                                                  
+l.400 
+       <./figures/block_deeper.pdf> <./figures/resnet_shortcut.png>]
+
+pdfTeX warning: pdflatex.exe (file ./figures/resnext_inception.pdf): PDF inclusion: found PDF version <1.6>, but at most version <1.5> allowed
+<./figures/resnext_inception.pdf, id=876, 119.916pt x 80.22873pt>
+File: ./figures/resnext_inception.pdf Graphic file (type pdf)
+<use ./figures/resnext_inception.pdf>
+Package pdftex.def Info: ./figures/resnext_inception.pdf  used on input line 410.
+(pdftex.def)             Requested size: 256.0748pt x 171.33763pt.
+
+
+pdfTeX warning: pdflatex.exe (file ./figures/resnext_residual.pdf): PDF inclusion: found PDF version <1.6>, but at most version <1.5> allowed
+<./figures/resnext_residual.pdf, id=878, 128.13771pt x 80.79485pt>
+File: ./figures/resnext_residual.pdf Graphic file (type pdf)
+<use ./figures/resnext_residual.pdf>
+Package pdftex.def Info: ./figures/resnext_residual.pdf  used on input line 422.
+(pdftex.def)             Requested size: 284.52756pt x 179.41965pt.
+[18pdfTeX warning (ext4): destination with the same identifier (name{figure.15}) has been already used, duplicate ignored
+
+\@EveryShipout@Output ...@Org@Shipout \box \@cclv 
+                                                  
+l.435 (
+       1) 相比 ResNet 拥有更少的参数数量. <./figures/resnext_inception.pdf>]
+<./figures/denseBlock.pdf, id=916, 619.10509pt x 439.12256pt>
+File: ./figures/denseBlock.pdf Graphic file (type pdf)
+<use ./figures/denseBlock.pdf>
+Package pdftex.def Info: ./figures/denseBlock.pdf  used on input line 451.
+(pdftex.def)             Requested size: 341.43306pt x 242.17479pt.
+ [19pdfTeX warning (ext4): destination with the same identifier (name{figure.16}) has been already used, duplicate ignored
+
+\@EveryShipout@Output ...@Org@Shipout \box \@cclv 
+                                                  
+l.464 
+       <./figures/resnext_residual.pdf>]
+<./figures/denseNet.pdf, id=951, 682.81331pt x 97.54442pt>
+File: ./figures/denseNet.pdf Graphic file (type pdf)
+<use ./figures/denseNet.pdf>
+Package pdftex.def Info: ./figures/denseNet.pdf  used on input line 467.
+(pdftex.def)             Requested size: 483.69684pt x 69.1022pt.
+ [20pdfTeX warning (ext4): destination with the same identifier (name{figure.17}) has been already used, duplicate ignored
+
+\@EveryShipout@Output ...@Org@Shipout \box \@cclv 
+                                                  
+l.479 
+      pdfTeX warning (ext4): destination with the same identifier (name{figure.18}) has been already used, duplicate ignored
+
+\@EveryShipout@Output ...@Org@Shipout \box \@cclv 
+                                                  
+l.479 
+       <./figures/denseBlock.pdf> <./figures/denseNet.pdf, page is rotated 90 degrees>]
+
+pdfTeX warning: pdflatex.exe (file ./figures/effnet_params.pdf): PDF inclusion: found PDF version <1.6>, but at most version <1.5> allowed
+<./figures/effnet_params.pdf, id=1017, 235.20572pt x 187.902pt>
+File: ./figures/effnet_params.pdf Graphic file (type pdf)
+<use ./figures/effnet_params.pdf>
+Package pdftex.def Info: ./figures/effnet_params.pdf  used on input line 482.
+(pdftex.def)             Requested size: 284.52756pt x 227.3191pt.
+[21pdfTeX warning (ext4): destination with the same identifier (name{figure.19}) has been already used, duplicate ignored
+
+\@EveryShipout@Output ...@Org@Shipout \box \@cclv 
+                                                  
+l.503 
+       <./figures/effnet_params.pdf>] [22]
+<./figures/nfnet_pareto_front.pdf, id=1105, 623.79301pt x 493.01251pt>
+File: ./figures/nfnet_pareto_front.pdf Graphic file (type pdf)
+<use ./figures/nfnet_pareto_front.pdf>
+Package pdftex.def Info: ./figures/nfnet_pareto_front.pdf  used on input line 540.
+(pdftex.def)             Requested size: 284.52756pt x 224.87772pt.
+ [23pdfTeX warning (ext4): destination with the same identifier (name{figure.20}) has been already used, duplicate ignored
+
+\@EveryShipout@Output ...@Org@Shipout \box \@cclv 
+                                                  
+l.561 \end{equation}
+                     <./figures/nfnet_pareto_front.pdf>] [24] [25]
+<./figures/BERT_comparisons.pdf, id=1209, 1193.45876pt x 276.03125pt>
+File: ./figures/BERT_comparisons.pdf Graphic file (type pdf)
+<use ./figures/BERT_comparisons.pdf>
+Package pdftex.def Info: ./figures/BERT_comparisons.pdf  used on input line 648.
+(pdftex.def)             Requested size: 483.69684pt x 111.87206pt.
+<./figures/ModalNet-21.png, id=1211, 366.168pt x 539.3751pt>
+File: ./figures/ModalNet-21.png Graphic file (type png)
+<use ./figures/ModalNet-21.png>
+Package pdftex.def Info: ./figures/ModalNet-21.png  used on input line 657.
+(pdftex.def)             Requested size: 284.52756pt x 419.12247pt.
+<./figures/Input_Emebeddings.pdf, id=1213, 750.805pt x 220.825pt>
+File: ./figures/Input_Emebeddings.pdf Graphic file (type pdf)
+<use ./figures/Input_Emebeddings.pdf>
+Package pdftex.def Info: ./figures/Input_Emebeddings.pdf  used on input line 665.
+(pdftex.def)             Requested size: 426.79134pt x 125.52785pt.
+ [26pdfTeX warning (ext4): destination with the same identifier (name{figure.21}) has been already used, duplicate ignored
+
+\@EveryShipout@Output ...@Org@Shipout \box \@cclv 
+                                                  
+l.675 
+       <./figures/BERT_comparisons.pdf>] [27pdfTeX warning (ext4): destination with the same identifier (name{figure.22}) has been already used, duplicate ignored
+
+\@EveryShipout@Output ...@Org@Shipout \box \@cclv 
+                                                  
+l.675 
+      pdfTeX warning (ext4): destination with the same identifier (name{figure.23}) has been already used, duplicate ignored
+
+\@EveryShipout@Output ...@Org@Shipout \box \@cclv 
+                                                  
+l.675 
+       <./figures/ModalNet-21.png> <./figures/Input_Emebeddings.pdf>]
+<./figures/BERT_fine_tune.pdf, id=1258, 837.1275pt x 814.04124pt>
+File: ./figures/BERT_fine_tune.pdf Graphic file (type pdf)
+<use ./figures/BERT_fine_tune.pdf>
+Package pdftex.def Info: ./figures/BERT_fine_tune.pdf  used on input line 682.
+(pdftex.def)             Requested size: 455.24408pt x 442.68103pt.
+<./figures/distilbert.png, id=1265, 1099.10625pt x 520.94624pt>
+File: ./figures/distilbert.png Graphic file (type png)
+<use ./figures/distilbert.png>
+Package pdftex.def Info: ./figures/distilbert.png  used on input line 707.
+(pdftex.def)             Requested size: 455.24408pt x 215.76736pt.
+ [28] [29pdfTeX warning (ext4): destination with the same identifier (name{figure.24}) has been already used, duplicate ignored
+
+\@EveryShipout@Output ...@Org@Shipout \box \@cclv 
+                                                  
+l.717 
+       <./figures/BERT_fine_tune.pdf>]
+<./figures/SBERT_Architektur.pdf, id=1379, 199.10385pt x 200.6697pt>
+File: ./figures/SBERT_Architektur.pdf Graphic file (type pdf)
+<use ./figures/SBERT_Architektur.pdf>
+Package pdftex.def Info: ./figures/SBERT_Architektur.pdf  used on input line 730.
+(pdftex.def)             Requested size: 227.62204pt x 229.42107pt.
+<./figures/SBERT_Architektur_cosine.pdf, id=1380, 199.10385pt x 200.6697pt>
+File: ./figures/SBERT_Architektur_cosine.pdf Graphic file (type pdf)
+<use ./figures/SBERT_Architektur_cosine.pdf>
+Package pdftex.def Info: ./figures/SBERT_Architektur_cosine.pdf  used on input line 736.
+(pdftex.def)             Requested size: 227.62204pt x 229.42107pt.
+ [30pdfTeX warning (ext4): destination with the same identifier (name{figure.25}) has been already used, duplicate ignored
+
+\@EveryShipout@Output ...@Org@Shipout \box \@cclv 
+                                                  
+l.745 \begin{equation}
+                       <./figures/distilbert.png>] [31pdfTeX warning (ext4): destination with the same identifier (name{figure.26}) has been already used, duplicate ignored
+
+\@EveryShipout@Output ...@Org@Shipout \box \@cclv 
+                                                  
+l.769 
+      pdfTeX warning (ext4): destination with the same identifier (name{figure.27}) has been already used, duplicate ignored
+
+\@EveryShipout@Output ...@Org@Shipout \box \@cclv 
+                                                  
+l.769 
+       <./figures/SBERT_Architektur.pdf> <./figures/SBERT_Architektur_cosine.pdf>] [32] [33]
+<./figures/NB.JPG, id=1453, 1284.8pt x 722.7pt>
+File: ./figures/NB.JPG Graphic file (type jpg)
+<use ./figures/NB.JPG>
+Package pdftex.def Info: ./figures/NB.JPG  used on input line 868.
+(pdftex.def)             Requested size: 455.24408pt x 256.06956pt.
+ [34] [35pdfTeX warning (ext4): destination with the same identifier (name{figure.28}) has been already used, duplicate ignored
+
+\@EveryShipout@Output ...@Org@Shipout \box \@cclv 
+                                                  
+l.894 
+       <./figures/NB.JPG>]
+<./figures/dist_train_label.png, id=1478, 511.15968pt x 274.77657pt>
+File: ./figures/dist_train_label.png Graphic file (type png)
+<use ./figures/dist_train_label.png>
+Package pdftex.def Info: ./figures/dist_train_label.png  used on input line 917.
+(pdftex.def)             Requested size: 341.43306pt x 183.5375pt.
+<./figures/dist_valid_label.png, id=1479, 511.15968pt x 275.52937pt>
+File: ./figures/dist_valid_label.png Graphic file (type png)
+<use ./figures/dist_valid_label.png>
+Package pdftex.def Info: ./figures/dist_valid_label.png  used on input line 926.
+(pdftex.def)             Requested size: 227.62204pt x 122.69215pt.
+<./figures/dist_test_label.png, id=1480, 506.6428pt x 276.28218pt>
+File: ./figures/dist_test_label.png Graphic file (type png)
+<use ./figures/dist_test_label.png>
+Package pdftex.def Info: ./figures/dist_test_label.png  used on input line 932.
+(pdftex.def)             Requested size: 227.62204pt x 124.12347pt.
+ [36pdfTeX warning (ext4): destination with the same identifier (name{figure.29}) has been already used, duplicate ignored
+
+\@EveryShipout@Output ...@Org@Shipout \box \@cclv 
+                                                  
+l.962 (
+       1) TP: 实际为正, 预测为正的样本数量. <./figures/dist_train_label.png>] [37pdfTeX warning (ext4): destination with the same identifier (name{figure.30}) has been already used, duplicate ignored
+
+\@EveryShipout@Output ...@Org@Shipout \box \@cclv 
+                                                  
+l.995 \end{equation}
+                    pdfTeX warning (ext4): destination with the same identifier (name{figure.31}) has been already used, duplicate ignored
+
+\@EveryShipout@Output ...@Org@Shipout \box \@cclv 
+                                                  
+l.995 \end{equation}
+                    pdfTeX warning (ext4): destination with the same identifier (name{table.5}) has been already used, duplicate ignored
+
+\@EveryShipout@Output ...@Org@Shipout \box \@cclv 
+                                                  
+l.995 \end{equation}
+                     <./figures/dist_valid_label.png> <./figures/dist_test_label.png>]
+<./figures/best_results_df.pdf, id=1507, 385.80486pt x 310.30156pt>
+File: ./figures/best_results_df.pdf Graphic file (type pdf)
+<use ./figures/best_results_df.pdf>
+Package pdftex.def Info: ./figures/best_results_df.pdf  used on input line 1047.
+(pdftex.def)             Requested size: 341.43306pt x 274.6287pt.
+ [38] [39pdfTeX warning (ext4): destination with the same identifier (name{table.6}) has been already used, duplicate ignored
+
+\@EveryShipout@Output ...@Org@Shipout \box \@cclv 
+                                                  
+l.1065 \end{equation}
+                     pdfTeX warning (ext4): destination with the same identifier (name{figure.32}) has been already used, duplicate ignored
+
+\@EveryShipout@Output ...@Org@Shipout \box \@cclv 
+                                                  
+l.1065 \end{equation}
+                      <./figures/best_results_df.pdf>] [40pdfTeX warning (ext4): destination with the same identifier (name{table.7}) has been already used, duplicate ignored
+
+\@EveryShipout@Output ...@Org@Shipout \box \@cclv 
+                                                  
+l.1097 
+       ]
+<./figures/resnet_hp_arcface.pdf, id=1582, 379.154pt x 248.71294pt>
+File: ./figures/resnet_hp_arcface.pdf Graphic file (type pdf)
+<use ./figures/resnet_hp_arcface.pdf>
+Package pdftex.def Info: ./figures/resnet_hp_arcface.pdf  used on input line 1119.
+(pdftex.def)             Requested size: 227.62204pt x 149.3162pt.
+<./figures/resnet_hp_curface.pdf, id=1583, 379.154pt x 248.71294pt>
+File: ./figures/resnet_hp_curface.pdf Graphic file (type pdf)
+<use ./figures/resnet_hp_curface.pdf>
+Package pdftex.def Info: ./figures/resnet_hp_curface.pdf  used on input line 1125.
+(pdftex.def)             Requested size: 227.62204pt x 149.3162pt.
+ [41pdfTeX warning (ext4): destination with the same identifier (name{table.8}) has been already used, duplicate ignored
+
+\@EveryShipout@Output ...@Org@Shipout \box \@cclv 
+                                                  
+l.1154 比
+          较使用 ArcFace 作为损失函数的最优结果与使用 Curri...pdfTeX warning (ext4): destination with the same identifier (name{figure.33}) has been already used, duplicate ignored
+
+\@EveryShipout@Output ...@Org@Shipout \box \@cclv 
+                                                  
+l.1154 比
+          较使用 ArcFace 作为损失函数的最优结果与使用 Curri...pdfTeX warning (ext4): destination with the same identifier (name{figure.34}) has been already used, duplicate ignored
+
+\@EveryShipout@Output ...@Org@Shipout \box \@cclv 
+                                                  
+l.1154 比
+          较使用 ArcFace 作为损失函数的最优结果与使用 Curri... <./figures/resnet_hp_arcface.pdf> <./figures/resnet_hp_curface.pdf
+
+pdfTeX warning: pdflatex.exe (file ./figures/resnet_hp_curface.pdf): PDF inclusion: multiple pdfs with page group included in a single page
+>]
+<./figures/resnext_hp_arcface.pdf, id=1658, 379.154pt x 248.71294pt>
+File: ./figures/resnext_hp_arcface.pdf Graphic file (type pdf)
+<use ./figures/resnext_hp_arcface.pdf>
+Package pdftex.def Info: ./figures/resnext_hp_arcface.pdf  used on input line 1213.
+(pdftex.def)             Requested size: 227.62204pt x 149.3162pt.
+<./figures/resnext_hp_curface.pdf, id=1659, 379.154pt x 248.71294pt>
+File: ./figures/resnext_hp_curface.pdf Graphic file (type pdf)
+<use ./figures/resnext_hp_curface.pdf>
+Package pdftex.def Info: ./figures/resnext_hp_curface.pdf  used on input line 1219.
+(pdftex.def)             Requested size: 227.62204pt x 149.3162pt.
+ [42pdfTeX warning (ext4): destination with the same identifier (name{table.9}) has been already used, duplicate ignored
+
+\@EveryShipout@Output ...@Org@Shipout \box \@cclv 
+                                                  
+l.1249 
+       pdfTeX warning (ext4): destination with the same identifier (name{table.10}) has been already used, duplicate ignored
+
+\@EveryShipout@Output ...@Org@Shipout \box \@cclv 
+                                                  
+l.1249 
+       ] [43pdfTeX warning (ext4): destination with the same identifier (name{figure.35}) has been already used, duplicate ignored
+
+\@EveryShipout@Output ...@Org@Shipout \box \@cclv 
+                                                  
+l.1249 
+       pdfTeX warning (ext4): destination with the same identifier (name{figure.36}) has been already used, duplicate ignored
+
+\@EveryShipout@Output ...@Org@Shipout \box \@cclv 
+                                                  
+l.1249 
+       pdfTeX warning (ext4): destination with the same identifier (name{table.11}) has been already used, duplicate ignored
+
+\@EveryShipout@Output ...@Org@Shipout \box \@cclv 
+                                                  
+l.1249 
+        <./figures/resnext_hp_arcface.pdf> <./figures/resnext_hp_curface.pdf
+
+pdfTeX warning: pdflatex.exe (file ./figures/resnext_hp_curface.pdf): PDF inclusion: multiple pdfs with page group included in a single page
+>]
+<./figures/densenet_hp_arcface.pdf, id=1739, 379.154pt x 248.71294pt>
+File: ./figures/densenet_hp_arcface.pdf Graphic file (type pdf)
+<use ./figures/densenet_hp_arcface.pdf>
+Package pdftex.def Info: ./figures/densenet_hp_arcface.pdf  used on input line 1271.
+(pdftex.def)             Requested size: 227.62204pt x 149.3162pt.
+<./figures/densenet_hp_curface.pdf, id=1740, 379.154pt x 248.71294pt>
+File: ./figures/densenet_hp_curface.pdf Graphic file (type pdf)
+<use ./figures/densenet_hp_curface.pdf>
+Package pdftex.def Info: ./figures/densenet_hp_curface.pdf  used on input line 1277.
+(pdftex.def)             Requested size: 227.62204pt x 149.3162pt.
+ [44pdfTeX warning (ext4): destination with the same identifier (name{table.12}) has been already used, duplicate ignored
+
+\@EveryShipout@Output ...@Org@Shipout \box \@cclv 
+                                                  
+l.1323 \end{table}
+                  pdfTeX warning (ext4): destination with the same identifier (name{figure.37}) has been already used, duplicate ignored
+
+\@EveryShipout@Output ...@Org@Shipout \box \@cclv 
+                                                  
+l.1323 \end{table}
+                  pdfTeX warning (ext4): destination with the same identifier (name{figure.38}) has been already used, duplicate ignored
+
+\@EveryShipout@Output ...@Org@Shipout \box \@cclv 
+                                                  
+l.1323 \end{table}
+                   <./figures/densenet_hp_arcface.pdf> <./figures/densenet_hp_curface.pdf
+
+pdfTeX warning: pdflatex.exe (file ./figures/densenet_hp_curface.pdf): PDF inclusion: multiple pdfs with page group included in a single page
+>]
+<./figures/efficientnet_hp_arcface.pdf, id=1816, 385.53723pt x 248.71294pt>
+File: ./figures/efficientnet_hp_arcface.pdf Graphic file (type pdf)
+<use ./figures/efficientnet_hp_arcface.pdf>
+Package pdftex.def Info: ./figures/efficientnet_hp_arcface.pdf  used on input line 1329.
+(pdftex.def)             Requested size: 227.62204pt x 146.84183pt.
+<./figures/efficientnet_hp_curface.pdf, id=1817, 385.53723pt x 248.71294pt>
+File: ./figures/efficientnet_hp_curface.pdf Graphic file (type pdf)
+<use ./figures/efficientnet_hp_curface.pdf>
+Package pdftex.def Info: ./figures/efficientnet_hp_curface.pdf  used on input line 1335.
+(pdftex.def)             Requested size: 227.62204pt x 146.84183pt.
+ [45pdfTeX warning (ext4): destination with the same identifier (name{table.13}) has been already used, duplicate ignored
+
+\@EveryShipout@Output ...@Org@Shipout \box \@cclv 
+                                                  
+l.1363 
+       pdfTeX warning (ext4): destination with the same identifier (name{table.14}) has been already used, duplicate ignored
+
+\@EveryShipout@Output ...@Org@Shipout \box \@cclv 
+                                                  
+l.1363 
+       pdfTeX warning (ext4): destination with the same identifier (name{table.15}) has been already used, duplicate ignored
+
+\@EveryShipout@Output ...@Org@Shipout \box \@cclv 
+                                                  
+l.1363 
+       ]
+<./figures/nfnet_hp_arcface.pdf, id=1833, 379.154pt x 248.71294pt>
+File: ./figures/nfnet_hp_arcface.pdf Graphic file (type pdf)
+<use ./figures/nfnet_hp_arcface.pdf>
+Package pdftex.def Info: ./figures/nfnet_hp_arcface.pdf  used on input line 1387.
+(pdftex.def)             Requested size: 227.62204pt x 149.3162pt.
+<./figures/nfnet_hp_curface.pdf, id=1834, 385.53723pt x 248.71294pt>
+File: ./figures/nfnet_hp_curface.pdf Graphic file (type pdf)
+<use ./figures/nfnet_hp_curface.pdf>
+Package pdftex.def Info: ./figures/nfnet_hp_curface.pdf  used on input line 1393.
+(pdftex.def)             Requested size: 227.62204pt x 146.84183pt.
+ [46pdfTeX warning (ext4): destination with the same identifier (name{figure.39}) has been already used, duplicate ignored
+
+\@EveryShipout@Output ...@Org@Shipout \box \@cclv 
+                                                  
+l.1404 
+       pdfTeX warning (ext4): destination with the same identifier (name{figure.40}) has been already used, duplicate ignored
+
+\@EveryShipout@Output ...@Org@Shipout \box \@cclv 
+                                                  
+l.1404 
+       pdfTeX warning (ext4): destination with the same identifier (name{table.16}) has been already used, duplicate ignored
+
+\@EveryShipout@Output ...@Org@Shipout \box \@cclv 
+                                                  
+l.1404 
+        <./figures/efficientnet_hp_arcface.pdf> <./figures/efficientnet_hp_curface.pdf
+
+pdfTeX warning: pdflatex.exe (file ./figures/efficientnet_hp_curface.pdf): PDF inclusion: multiple pdfs with page group included in a single page
+>]
+<./figures/best_text_results_df.pdf, id=1905, 396.62044pt x 383.74641pt>
+File: ./figures/best_text_results_df.pdf Graphic file (type pdf)
+<use ./figures/best_text_results_df.pdf>
+Package pdftex.def Info: ./figures/best_text_results_df.pdf  used on input line 1425.
+(pdftex.def)             Requested size: 341.43306pt x 330.3668pt.
+ [47pdfTeX warning (ext4): destination with the same identifier (name{figure.41}) has been already used, duplicate ignored
+
+\@EveryShipout@Output ...@Org@Shipout \box \@cclv 
+                                                  
+l.1443 \end{equation}
+                     pdfTeX warning (ext4): destination with the same identifier (name{figure.42}) has been already used, duplicate ignored
+
+\@EveryShipout@Output ...@Org@Shipout \box \@cclv 
+                                                  
+l.1443 \end{equation}
+                     pdfTeX warning (ext4): destination with the same identifier (name{table.17}) has been already used, duplicate ignored
+
+\@EveryShipout@Output ...@Org@Shipout \box \@cclv 
+                                                  
+l.1443 \end{equation}
+                      <./figures/nfnet_hp_arcface.pdf> <./figures/nfnet_hp_curface.pdf
+
+pdfTeX warning: pdflatex.exe (file ./figures/nfnet_hp_curface.pdf): PDF inclusion: multiple pdfs with page group included in a single page
+>] [48pdfTeX warning (ext4): destination with the same identifier (name{figure.43}) has been already used, duplicate ignored
+
+\@EveryShipout@Output ...@Org@Shipout \box \@cclv 
+                                                  
+l.1443 \end{equation}
+                      <./figures/best_text_results_df.pdf>] [49pdfTeX warning (ext4): destination with the same identifier (name{table.18}) has been already used, duplicate ignored
+
+\@EveryShipout@Output ...@Org@Shipout \box \@cclv 
+                                                  
+l.1479 
+       ]
+<./figures/bert_multi_hp.pdf, id=2034, 379.154pt x 248.71294pt>
+File: ./figures/bert_multi_hp.pdf Graphic file (type pdf)
+<use ./figures/bert_multi_hp.pdf>
+Package pdftex.def Info: ./figures/bert_multi_hp.pdf  used on input line 1502.
+(pdftex.def)             Requested size: 227.62204pt x 149.3162pt.
+<./figures/bert_indon_hp.pdf, id=2035, 379.154pt x 248.71294pt>
+File: ./figures/bert_indon_hp.pdf Graphic file (type pdf)
+<use ./figures/bert_indon_hp.pdf>
+Package pdftex.def Info: ./figures/bert_indon_hp.pdf  used on input line 1508.
+(pdftex.def)             Requested size: 227.62204pt x 149.3162pt.
+<./figures/distilbert_hp.pdf, id=2039, 379.154pt x 248.71294pt>
+File: ./figures/distilbert_hp.pdf Graphic file (type pdf)
+<use ./figures/distilbert_hp.pdf>
+Package pdftex.def Info: ./figures/distilbert_hp.pdf  used on input line 1536.
+(pdftex.def)             Requested size: 341.43306pt x 223.98378pt.
+ [50pdfTeX warning (ext4): destination with the same identifier (name{table.19}) has been already used, duplicate ignored
+
+\@EveryShipout@Output ...@Org@Shipout \box \@cclv 
+                                                  
+l.1544 
+       pdfTeX warning (ext4): destination with the same identifier (name{figure.44}) has been already used, duplicate ignored
+
+\@EveryShipout@Output ...@Org@Shipout \box \@cclv 
+                                                  
+l.1544 
+       pdfTeX warning (ext4): destination with the same identifier (name{figure.45}) has been already used, duplicate ignored
+
+\@EveryShipout@Output ...@Org@Shipout \box \@cclv 
+                                                  
+l.1544 
+        <./figures/bert_multi_hp.pdf> <./figures/bert_indon_hp.pdf
+
+pdfTeX warning: pdflatex.exe (file ./figures/bert_indon_hp.pdf): PDF inclusion: multiple pdfs with page group included in a single page
+>] [51pdfTeX warning (ext4): destination with the same identifier (name{table.20}) has been already used, duplicate ignored
+
+\@EveryShipout@Output ...@Org@Shipout \box \@cclv 
+                                                  
+l.1544 
+       pdfTeX warning (ext4): destination with the same identifier (name{figure.46}) has been already used, duplicate ignored
+
+\@EveryShipout@Output ...@Org@Shipout \box \@cclv 
+                                                  
+l.1544 
+        <./figures/distilbert_hp.pdf>]
+<./figures/sbert_xlm_r_hp.pdf, id=2155, 379.154pt x 248.71294pt>
+File: ./figures/sbert_xlm_r_hp.pdf Graphic file (type pdf)
+<use ./figures/sbert_xlm_r_hp.pdf>
+Package pdftex.def Info: ./figures/sbert_xlm_r_hp.pdf  used on input line 1585.
+(pdftex.def)             Requested size: 227.62204pt x 149.3162pt.
+<./figures/sbert_distilroberta_hp.pdf, id=2156, 379.154pt x 248.71294pt>
+File: ./figures/sbert_distilroberta_hp.pdf Graphic file (type pdf)
+<use ./figures/sbert_distilroberta_hp.pdf>
+Package pdftex.def Info: ./figures/sbert_distilroberta_hp.pdf  used on input line 1591.
+(pdftex.def)             Requested size: 227.62204pt x 149.3162pt.
+ [52pdfTeX warning (ext4): destination with the same identifier (name{table.21}) has been already used, duplicate ignored
+
+\@EveryShipout@Output ...@Org@Shipout \box \@cclv 
+                                                  
+l.1612 \end{equation}
+                     pdfTeX warning (ext4): destination with the same identifier (name{table.22}) has been already used, duplicate ignored
+
+\@EveryShipout@Output ...@Org@Shipout \box \@cclv 
+                                                  
+l.1612 \end{equation}
+                     ] [53pdfTeX warning (ext4): destination with the same identifier (name{figure.47}) has been already used, duplicate ignored
+
+\@EveryShipout@Output ...@Org@Shipout \box \@cclv 
+                                                  
+l.1638 \end{equation}
+                     pdfTeX warning (ext4): destination with the same identifier (name{figure.48}) has been already used, duplicate ignored
+
+\@EveryShipout@Output ...@Org@Shipout \box \@cclv 
+                                                  
+l.1638 \end{equation}
+                      <./figures/sbert_xlm_r_hp.pdf> <./figures/sbert_distilroberta_hp.pdf
+
+pdfTeX warning: pdflatex.exe (file ./figures/sbert_distilroberta_hp.pdf): PDF inclusion: multiple pdfs with page group included in a single page
+>] [54]
+<./figures/image_text_results_df.pdf, id=2249, 383.07607pt x 329.82095pt>
+File: ./figures/image_text_results_df.pdf Graphic file (type pdf)
+<use ./figures/image_text_results_df.pdf>
+Package pdftex.def Info: ./figures/image_text_results_df.pdf  used on input line 1707.
+(pdftex.def)             Requested size: 284.52756pt x 244.97961pt.
+ [55pdfTeX warning (ext4): destination with the same identifier (name{table.23}) has been already used, duplicate ignored
+
+\@EveryShipout@Output ...@Org@Shipout \box \@cclv 
+                                                  
+l.1719 \begin{equation}
+                       ]
+<./figures/min2_results_f1_df.pdf, id=2269, 715.20949pt x 492.87408pt>
+File: ./figures/min2_results_f1_df.pdf Graphic file (type pdf)
+<use ./figures/min2_results_f1_df.pdf>
+Package pdftex.def Info: ./figures/min2_results_f1_df.pdf  used on input line 1762.
+(pdftex.def)             Requested size: 341.43306pt x 235.29836pt.
+<./figures/min2_results_recall_df.pdf, id=2270, 715.20949pt x 492.87408pt>
+File: ./figures/min2_results_recall_df.pdf Graphic file (type pdf)
+<use ./figures/min2_results_recall_df.pdf>
+Package pdftex.def Info: ./figures/min2_results_recall_df.pdf  used on input line 1769.
+(pdftex.def)             Requested size: 398.33858pt x 274.51099pt.
+<./figures/min2_results_precision_df.pdf, id=2271, 715.20949pt x 492.87408pt>
+File: ./figures/min2_results_precision_df.pdf Graphic file (type pdf)
+<use ./figures/min2_results_precision_df.pdf>
+Package pdftex.def Info: ./figures/min2_results_precision_df.pdf  used on input line 1776.
+(pdftex.def)             Requested size: 398.33858pt x 274.51099pt.
+ [56pdfTeX warning (ext4): destination with the same identifier (name{figure.49}) has been already used, duplicate ignored
+
+\@EveryShipout@Output ...@Org@Shipout \box \@cclv 
+                                                  
+l.1786 \begin{equation}
+                        <./figures/image_text_results_df.pdf>] [57pdfTeX warning (ext4): destination with the same identifier (name{table.24}) has been already used, duplicate ignored
+
+\@EveryShipout@Output ...@Org@Shipout \box \@cclv 
+                                                  
+l.1786 \begin{equation}
+                       pdfTeX warning (ext4): destination with the same identifier (name{figure.50}) has been already used, duplicate ignored
+
+\@EveryShipout@Output ...@Org@Shipout \box \@cclv 
+                                                  
+l.1786 \begin{equation}
+                        <./figures/min2_results_f1_df.pdf>] [58pdfTeX warning (ext4): destination with the same identifier (name{figure.51}) has been already used, duplicate ignored
+
+\@EveryShipout@Output ...@Org@Shipout \box \@cclv 
+                                                  
+l.1786 \begin{equation}
+                       pdfTeX warning (ext4): destination with the same identifier (name{figure.52}) has been already used, duplicate ignored
+
+\@EveryShipout@Output ...@Org@Shipout \box \@cclv 
+                                                  
+l.1786 \begin{equation}
+                        <./figures/min2_results_recall_df.pdf> <./figures/min2_results_precision_df.pdf
+
+pdfTeX warning: pdflatex.exe (file ./figures/min2_results_precision_df.pdf): PDF inclusion: multiple pdfs with page group included in a single page
+>]
+<./figures/inb_results_f1_df.pdf, id=2458, 717.40067pt x 492.87408pt>
+File: ./figures/inb_results_f1_df.pdf Graphic file (type pdf)
+<use ./figures/inb_results_f1_df.pdf>
+Package pdftex.def Info: ./figures/inb_results_f1_df.pdf  used on input line 1821.
+(pdftex.def)             Requested size: 398.33858pt x 273.6762pt.
+<./figures/inb_results_recall_df.pdf, id=2459, 717.40067pt x 492.87408pt>
+File: ./figures/inb_results_recall_df.pdf Graphic file (type pdf)
+<use ./figures/inb_results_recall_df.pdf>
+Package pdftex.def Info: ./figures/inb_results_recall_df.pdf  used on input line 1828.
+(pdftex.def)             Requested size: 398.33858pt x 273.6762pt.
+<./figures/inb_results_precision_df.pdf, id=2460, 717.40067pt x 492.87408pt>
+File: ./figures/inb_results_precision_df.pdf Graphic file (type pdf)
+<use ./figures/inb_results_precision_df.pdf>
+Package pdftex.def Info: ./figures/inb_results_precision_df.pdf  used on input line 1835.
+(pdftex.def)             Requested size: 398.33858pt x 273.6762pt.
+<./figures/results_plot_f1_df.pdf, id=2465, 715.20949pt x 492.87408pt>
+File: ./figures/results_plot_f1_df.pdf Graphic file (type pdf)
+<use ./figures/results_plot_f1_df.pdf>
+Package pdftex.def Info: ./figures/results_plot_f1_df.pdf  used on input line 1882.
+(pdftex.def)             Requested size: 398.33858pt x 274.51099pt.
+<./figures/results_plot_recall_df.pdf, id=2466, 715.20949pt x 492.87408pt>
+File: ./figures/results_plot_recall_df.pdf Graphic file (type pdf)
+<use ./figures/results_plot_recall_df.pdf>
+Package pdftex.def Info: ./figures/results_plot_recall_df.pdf  used on input line 1889.
+(pdftex.def)             Requested size: 398.33858pt x 274.51099pt.
+<./figures/results_plot_precision_df.pdf, id=2467, 715.20949pt x 492.87408pt>
+File: ./figures/results_plot_precision_df.pdf Graphic file (type pdf)
+<use ./figures/results_plot_precision_df.pdf>
+Package pdftex.def Info: ./figures/results_plot_precision_df.pdf  used on input line 1896.
+(pdftex.def)             Requested size: 398.33858pt x 274.51099pt.
+ [59pdfTeX warning (ext4): destination with the same identifier (name{table.25}) has been already used, duplicate ignored
+
+\@EveryShipout@Output ...@Org@Shipout \box \@cclv 
+                                                  
+l.1908 
+       ] [60pdfTeX warning (ext4): destination with the same identifier (name{figure.53}) has been already used, duplicate ignored
+
+\@EveryShipout@Output ...@Org@Shipout \box \@cclv 
+                                                  
+l.1908 
+       pdfTeX warning (ext4): destination with the same identifier (name{figure.54}) has been already used, duplicate ignored
+
+\@EveryShipout@Output ...@Org@Shipout \box \@cclv 
+                                                  
+l.1908 
+        <./figures/inb_results_f1_df.pdf> <./figures/inb_results_recall_df.pdf
+
+pdfTeX warning: pdflatex.exe (file ./figures/inb_results_recall_df.pdf): PDF inclusion: multiple pdfs with page group included in a single page
+>] [61pdfTeX warning (ext4): destination with the same identifier (name{figure.55}) has been already used, duplicate ignored
+
+\@EveryShipout@Output ...@Org@Shipout \box \@cclv 
+                                                  
+l.1908 
+       pdfTeX warning (ext4): destination with the same identifier (name{figure.56}) has been already used, duplicate ignored
+
+\@EveryShipout@Output ...@Org@Shipout \box \@cclv 
+                                                  
+l.1908 
+        <./figures/inb_results_precision_df.pdf> <./figures/results_plot_f1_df.pdf
+
+pdfTeX warning: pdflatex.exe (file ./figures/results_plot_f1_df.pdf): PDF inclusion: multiple pdfs with page group included in a single page
+>] [62pdfTeX warning (ext4): destination with the same identifier (name{table.26}) has been already used, duplicate ignored
+
+\@EveryShipout@Output ...@Org@Shipout \box \@cclv 
+                                                  
+l.1908 
+       ] [63pdfTeX warning (ext4): destination with the same identifier (name{figure.57}) has been already used, duplicate ignored
+
+\@EveryShipout@Output ...@Org@Shipout \box \@cclv 
+                                                  
+l.1908 
+       pdfTeX warning (ext4): destination with the same identifier (name{figure.58}) has been already used, duplicate ignored
+
+\@EveryShipout@Output ...@Org@Shipout \box \@cclv 
+                                                  
+l.1908 
+        <./figures/results_plot_recall_df.pdf> <./figures/results_plot_precision_df.pdf
+
+pdfTeX warning: pdflatex.exe (file ./figures/results_plot_precision_df.pdf): PDF inclusion: multiple pdfs with page group included in a single page
+>] [64] [65] [66] [67pdfTeX warning (ext4): destination with the same identifier (name{table.27}) has been already used, duplicate ignored
+
+\@EveryShipout@Output ...@Org@Shipout \box \@cclv 
+                                                  
+l.1986 
+       ] [68pdfTeX warning (ext4): destination with the same identifier (name{table.28}) has been already used, duplicate ignored
+
+\@EveryShipout@Output ...@Org@Shipout \box \@cclv 
+                                                  
+l.2028 
+       ]
+File: ./figures/results_plot_f1_df.pdf Graphic file (type pdf)
+<use ./figures/results_plot_f1_df.pdf>
+Package pdftex.def Info: ./figures/results_plot_f1_df.pdf  used on input line 2052.
+(pdftex.def)             Requested size: 398.33858pt x 274.51099pt.
+File: ./figures/results_plot_recall_df.pdf Graphic file (type pdf)
+<use ./figures/results_plot_recall_df.pdf>
+Package pdftex.def Info: ./figures/results_plot_recall_df.pdf  used on input line 2059.
+(pdftex.def)             Requested size: 398.33858pt x 274.51099pt.
+File: ./figures/results_plot_precision_df.pdf Graphic file (type pdf)
+<use ./figures/results_plot_precision_df.pdf>
+Package pdftex.def Info: ./figures/results_plot_precision_df.pdf  used on input line 2066.
+(pdftex.def)             Requested size: 398.33858pt x 274.51099pt.
+ [69pdfTeX warning (ext4): destination with the same identifier (name{table.29}) has been already used, duplicate ignored
+
+\@EveryShipout@Output ...@Org@Shipout \box \@cclv 
+                                                  
+l.2076 \begin{equation}
+                       pdfTeX warning (ext4): destination with the same identifier (name{table.30}) has been already used, duplicate ignored
+
+\@EveryShipout@Output ...@Org@Shipout \box \@cclv 
+                                                  
+l.2076 \begin{equation}
+                       ] [70pdfTeX warning (ext4): destination with the same identifier (name{figure.59}) has been already used, duplicate ignored
+
+\@EveryShipout@Output ...@Org@Shipout \box \@cclv 
+                                                  
+l.2076 \begin{equation}
+                       pdfTeX warning (ext4): destination with the same identifier (name{figure.60}) has been already used, duplicate ignored
+
+\@EveryShipout@Output ...@Org@Shipout \box \@cclv 
+                                                  
+l.2076 \begin{equation}
+                       ] [71pdfTeX warning (ext4): destination with the same identifier (name{figure.61}) has been already used, duplicate ignored
+
+\@EveryShipout@Output ...@Org@Shipout \box \@cclv 
+                                                  
+l.2089 \begin{equation}
+                       ] [72] [73pdfTeX warning (ext4): destination with the same identifier (name{table.31}) has been already used, duplicate ignored
+
+\@EveryShipout@Output ...@Org@Shipout \box \@cclv 
+                                                  
+l.2159 
+       ] (./report.bbl [74] [75] [76] [77] [78] [79]) [80]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 2172.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 2172.
+ (./report.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 2172.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 2172.
+Package rerunfilecheck Info: File `report.out' has not changed.
+(rerunfilecheck)             Checksum: C632CD76BAFD9CD6DAD785FA1EFD157C;11174.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 2172.
+ ) 
+Here is how much of TeX's memory you used:
+ 29547 strings out of 480876
+ 516671 string characters out of 5911488
+ 776712 words of memory out of 5000000
+ 43765 multiletter control sequences out of 15000+600000
+ 621369 words of font info for 344 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 60i,12n,60p,2275b,657s stack positions out of 5000i,500n,10000p,200000b,80000s
+<c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi9.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmmib10.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmti9.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb><c:/texlive/2020/texmf-dist/fonts/type1/urw/courier/ucrr8a.pfb><c:/texlive/2020/texmf-dist/fonts/type1/urw/times/utmb8a.pfb><c:/texlive/2020/texmf-dist/fonts/type1/urw/times/utmr8a.pfb><c:/texlive/2020/texmf-dist/fonts/type1/urw/times/utmr8a.pfb><c:/texlive/2020/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
+Output written on report.pdf (80 pages, 6598384 bytes).
+PDF statistics:
+ 3449 PDF objects out of 3580 (max. 8388607)
+ 2050 compressed objects within 21 object streams
+ 386 named destinations out of 1000 (max. 500000)
+ 1235 words of extra memory for PDF output out of 10000 (max. 10000000)
+

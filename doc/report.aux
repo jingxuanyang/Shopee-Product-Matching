@@ -1,0 +1,406 @@
+\relax 
+\providecommand\hyper@newdestlabel[2]{}
+\providecommand\HyperFirstAtBeginDocument{\AtBeginDocument}
+\HyperFirstAtBeginDocument{\ifx\hyper@anchor\@undefined
+\global\let\oldcontentsline\contentsline
+\gdef\contentsline#1#2#3#4{\oldcontentsline{#1}{#2}{#3}}
+\global\let\oldnewlabel\newlabel
+\gdef\newlabel#1#2{\newlabelxx{#1}#2}
+\gdef\newlabelxx#1#2#3#4#5#6{\oldnewlabel{#1}{{#2}{#3}}}
+\AtEndDocument{\ifx\hyper@anchor\@undefined
+\let\contentsline\oldcontentsline
+\let\newlabel\oldnewlabel
+\fi}
+\fi}
+\global\let\hyper@last\relax 
+\gdef\HyperFirstAtBeginDocument#1{#1}
+\providecommand\HyField@AuxAddToFields[1]{}
+\providecommand\HyField@AuxAddToCoFields[2]{}
+\citation{Dubey2020Decade}
+\citation{Hwang2012Medical,Alkhawlani2015Text}
+\citation{Kato1992Database}
+\@writefile{toc}{\contentsline {section}{\numberline {1}简介}{5}{section.1}\protected@file@percent }
+\citation{Smeulders2000Content}
+\citation{Chen2021Deep}
+\citation{Dalal2005Histograms}
+\citation{Lowe1999Object}
+\citation{Bay2006Surf}
+\citation{Calonder2010Brief}
+\citation{Rublee2011Orb}
+\citation{Harris1988Combined}
+\citation{Sivic2008Efficient}
+\citation{Jegou2010Aggregating}
+\citation{Perronnin2007Fisher}
+\@writefile{lof}{\contentsline {figure}{\numberline {1}{\ignorespaces 基于文本的图像检索方法}}{6}{figure.1}\protected@file@percent }
+\newlabel{fig:TBIR}{{1}{6}{基于文本的图像检索方法}{figure.1}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {2}{\ignorespaces 基于内容的图像检索方法}}{6}{figure.2}\protected@file@percent }
+\newlabel{fig:CBIR}{{2}{6}{基于内容的图像检索方法}{figure.2}{}}
+\citation{Krizhevsky2012Imagenet}
+\citation{Krizhevsky2012Imagenet}
+\citation{Simonyan2014Very}
+\citation{Szegedy2015Going}
+\citation{He2016Deep}
+\citation{Arya1998Optimal}
+\citation{Wang2017Survey}
+\citation{Charikar2002Similarity}
+\citation{Gong2012Iterative}
+\citation{Weiss2008Spectral}
+\citation{Shen2015Supervised}
+\citation{Liu2012Supervised}
+\citation{Kulis2009Learning}
+\citation{Vo2019Composing}
+\citation{Zhang2020Context}
+\citation{Wang2019CAMP}
+\citation{Chen2017AMC}
+\citation{Devlin2018BERT}
+\citation{Lu2019ViLBERT}
+\citation{Su2019VL}
+\citation{Li2019VisualBERT}
+\citation{Van2017Devil}
+\citation{Van2018iNaturalist}
+\citation{Gupta2019LVIS}
+\citation{Wei2019RPC}
+\citation{Zhou2020BBN}
+\citation{Schroeder2020Structured}
+\citation{Zhou2020Large}
+\citation{Somasundaran2020Robust}
+\citation{Humenberger2020Robust}
+\@writefile{toc}{\contentsline {paragraph}{本文主要贡献}{9}{section*.2}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {2}任务定义}{9}{section.2}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.1}仅利用图像信息}{9}{subsection.2.1}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.2}仅利用文本信息}{9}{subsection.2.2}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.3}同时利用图像与文本信息}{9}{subsection.2.3}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {3}数据整理}{10}{section.3}\protected@file@percent }
+\@writefile{lot}{\contentsline {table}{\numberline {1}{\ignorespaces train.csv 数据示例}}{10}{table.1}\protected@file@percent }
+\newlabel{tab:train_csv_5}{{1}{10}{train.csv 数据示例}{table.1}{}}
+\@writefile{lot}{\contentsline {table}{\numberline {2}{\ignorespaces train.csv 每列非重复元素个数}}{11}{table.2}\protected@file@percent }
+\newlabel{tab:unique_values}{{2}{11}{train.csv 每列非重复元素个数}{table.2}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {3}{\ignorespaces 图像标签的分布}}{11}{figure.3}\protected@file@percent }
+\newlabel{fig:dist_label_group}{{3}{11}{图像标签的分布}{figure.3}{}}
+\@writefile{lot}{\contentsline {table}{\numberline {3}{\ignorespaces Top 10 最频繁出现的图像类别}}{12}{table.3}\protected@file@percent }
+\newlabel{tab:most_frequent_label_groups}{{3}{12}{Top 10 最频繁出现的图像类别}{table.3}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4}{\ignorespaces 类别 1141798720 包含的图像}}{12}{figure.4}\protected@file@percent }
+\newlabel{fig:label_1141798720}{{4}{12}{类别 1141798720 包含的图像}{figure.4}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {5}{\ignorespaces 类别 3113678103 包含的图像}}{12}{figure.5}\protected@file@percent }
+\newlabel{fig:label_3113678103}{{5}{12}{类别 3113678103 包含的图像}{figure.5}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {6}{\ignorespaces 图像标题文本的分布}}{13}{figure.6}\protected@file@percent }
+\newlabel{fig:dist_title}{{6}{13}{图像标题文本的分布}{figure.6}{}}
+\@writefile{lot}{\contentsline {table}{\numberline {4}{\ignorespaces Top 10 最频繁出现的标题文本}}{13}{table.4}\protected@file@percent }
+\newlabel{tab:most_frequent_title}{{4}{13}{Top 10 最频繁出现的标题文本}{table.4}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {7}{\ignorespaces 标题 Koko syubbanul ... 包含的图像}}{14}{figure.7}\protected@file@percent }
+\newlabel{fig:title_Kok}{{7}{14}{标题 Koko syubbanul ... 包含的图像}{figure.7}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {8}{\ignorespaces 标题 Baju Koko Pria ... 包含的图像}}{14}{figure.8}\protected@file@percent }
+\newlabel{fig:title_Baj}{{8}{14}{标题 Baju Koko Pria ... 包含的图像}{figure.8}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {9}{\ignorespaces 图像标题文本长度的分布}}{14}{figure.9}\protected@file@percent }
+\newlabel{fig:dist_title_length}{{9}{14}{图像标题文本长度的分布}{figure.9}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {10}{\ignorespaces 标题词云图}}{15}{figure.10}\protected@file@percent }
+\newlabel{fig:word_cloud}{{10}{15}{标题词云图}{figure.10}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {11}{\ignorespaces 图像感知哈希的分布}}{15}{figure.11}\protected@file@percent }
+\newlabel{fig:dist_image_phash}{{11}{15}{图像感知哈希的分布}{figure.11}{}}
+\citation{He2016Deep}
+\@writefile{toc}{\contentsline {section}{\numberline {4}方法设计}{16}{section.4}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.1}仅利用图像信息}{16}{subsection.4.1}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {4.1.1}ResNet}{16}{subsubsection.4.1.1}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {12}{\ignorespaces ResNet 残差块}}{16}{figure.12}\protected@file@percent }
+\newlabel{fig:resnet}{{12}{16}{ResNet 残差块}{figure.12}{}}
+\citation{Zhang2020Dive}
+\citation{Xie2017Aggregated}
+\@writefile{lof}{\contentsline {figure}{\numberline {13}{\ignorespaces ResNet 残差路径}}{17}{figure.13}\protected@file@percent }
+\newlabel{fig:resnet_function}{{13}{17}{ResNet 残差路径}{figure.13}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {14}{\ignorespaces ResNet shortcut 路径}}{17}{figure.14}\protected@file@percent }
+\newlabel{fig:resnet_shortcut}{{14}{17}{ResNet shortcut 路径}{figure.14}{}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {4.1.2}ResNeXt}{17}{subsubsection.4.1.2}\protected@file@percent }
+\citation{Huang2017Densely}
+\@writefile{lof}{\contentsline {figure}{\numberline {15}{\ignorespaces ResNeXt Inception 示例}}{18}{figure.15}\protected@file@percent }
+\newlabel{fig:resnext_inception}{{15}{18}{ResNeXt Inception 示例}{figure.15}{}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {4.1.3}DenseNet}{18}{subsubsection.4.1.3}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {16}{\ignorespaces ResNeXt 结构}}{19}{figure.16}\protected@file@percent }
+\newlabel{fig:resnext_residual}{{16}{19}{ResNeXt 结构}{figure.16}{}}
+\citation{Tan2019Efficientnet}
+\@writefile{lof}{\contentsline {figure}{\numberline {17}{\ignorespaces DenseNet 5 层网络块}}{20}{figure.17}\protected@file@percent }
+\newlabel{fig:dense_block}{{17}{20}{DenseNet 5 层网络块}{figure.17}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {18}{\ignorespaces 具有三个网络块的 DenseNet}}{20}{figure.18}\protected@file@percent }
+\newlabel{fig:dense_net}{{18}{20}{具有三个网络块的 DenseNet}{figure.18}{}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {4.1.4}EfficientNet}{21}{subsubsection.4.1.4}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {19}{\ignorespaces EfficientNet 与其他模型对比}}{21}{figure.19}\protected@file@percent }
+\newlabel{fig:effnet_params}{{19}{21}{EfficientNet 与其他模型对比}{figure.19}{}}
+\citation{Brock2021High}
+\newlabel{eq:optobj}{{10}{22}{EfficientNet}{equation.4.10}{}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {4.1.5}NFNet}{22}{subsubsection.4.1.5}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {20}{\ignorespaces NFNet 与其他模型对比}}{23}{figure.20}\protected@file@percent }
+\newlabel{fig:nfnet_pareto_front}{{20}{23}{NFNet 与其他模型对比}{figure.20}{}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {4.1.6}Ensemble: 分类器度量层输出融合}{24}{subsubsection.4.1.6}\protected@file@percent }
+\citation{Rajaraman2011Data}
+\citation{Devlin2018BERT}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.2}仅利用文本信息}{25}{subsection.4.2}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {4.2.1}TF-IDF}{25}{subsubsection.4.2.1}\protected@file@percent }
+\citation{Vaswani2017Attention}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {4.2.2}BERT}{26}{subsubsection.4.2.2}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {21}{\ignorespaces BERT 网络架构与其他网络对比}}{26}{figure.21}\protected@file@percent }
+\newlabel{fig:BERT_comparisons}{{21}{26}{BERT 网络架构与其他网络对比}{figure.21}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {22}{\ignorespaces Transformer 网络架构}}{27}{figure.22}\protected@file@percent }
+\newlabel{fig:transformer}{{22}{27}{Transformer 网络架构}{figure.22}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {23}{\ignorespaces BERT 输入特征}}{27}{figure.23}\protected@file@percent }
+\newlabel{fig:bert_embeddings}{{23}{27}{BERT 输入特征}{figure.23}{}}
+\citation{Sanh2019Distilbert}
+\citation{Reimers2019Sentence}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {4.2.3}DistilBERT}{28}{subsubsection.4.2.3}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {24}{\ignorespaces BERT 在不同任务中微调示意图}}{29}{figure.24}\protected@file@percent }
+\newlabel{fig:BERT_fine_tune}{{24}{29}{BERT 在不同任务中微调示意图}{figure.24}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {25}{\ignorespaces DistilBERT 模型结构}}{30}{figure.25}\protected@file@percent }
+\newlabel{fig:distilbert}{{25}{30}{DistilBERT 模型结构}{figure.25}{}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {4.2.4}SBERT}{30}{subsubsection.4.2.4}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {26}{\ignorespaces SBERT 训练模型结构}}{31}{figure.26}\protected@file@percent }
+\newlabel{fig:sbert_train}{{26}{31}{SBERT 训练模型结构}{figure.26}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {27}{\ignorespaces SBERT 推断模型结构}}{31}{figure.27}\protected@file@percent }
+\newlabel{fig:sbert_inference}{{27}{31}{SBERT 推断模型结构}{figure.27}{}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {4.2.5}Ensemble: 分类器度量层输出融合}{31}{subsubsection.4.2.5}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.3}同时利用图像与文本信息}{32}{subsection.4.3}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {4.3.1}TF-IDF 与 ResNet 取并集}{32}{subsubsection.4.3.1}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {4.3.2}SBERT 与 NFNet 取并集}{32}{subsubsection.4.3.2}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {4.3.3}Ensemble: TF-IDF 与 ResNet 度量层融合}{32}{subsubsection.4.3.3}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {4.3.4}Ensemble: SBERT 与 NFNet 度量层融合}{33}{subsubsection.4.3.4}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {4.3.5}Ensemble: 文本 Ensemble 与图像 Ensemble 取并集}{33}{subsubsection.4.3.5}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.4}从机器学习角度进行的改进}{34}{subsection.4.4}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {4.4.1}基于数据分布特性的改进: Min2 最少两个原则}{34}{subsubsection.4.4.1}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {4.4.2}基于嵌入空间特性的改进: INB 迭代邻域混合}{34}{subsubsection.4.4.2}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {28}{\ignorespaces 邻域混合的一个步骤示例}}{35}{figure.28}\protected@file@percent }
+\newlabel{fig:neighblend}{{28}{35}{邻域混合的一个步骤示例}{figure.28}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {5}实验设计}{35}{section.5}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.1}数据集划分}{35}{subsection.5.1}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {29}{\ignorespaces 训练集类别标签对应图片数量的分布}}{36}{figure.29}\protected@file@percent }
+\newlabel{fig:dist_train_label}{{29}{36}{训练集类别标签对应图片数量的分布}{figure.29}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.2}评价指标}{36}{subsection.5.2}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {30}{\ignorespaces 验证集类别标签对应图片数量的分布}}{37}{figure.30}\protected@file@percent }
+\newlabel{fig:dist_valid_label}{{30}{37}{验证集类别标签对应图片数量的分布}{figure.30}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {31}{\ignorespaces 测试集类别标签对应图片数量的分布}}{37}{figure.31}\protected@file@percent }
+\newlabel{fig:dist_test_label}{{31}{37}{测试集类别标签对应图片数量的分布}{figure.31}{}}
+\@writefile{lot}{\contentsline {table}{\numberline {5}{\ignorespaces 混淆矩阵}}{37}{table.5}\protected@file@percent }
+\newlabel{tab:confusion_matrix}{{5}{37}{混淆矩阵}{table.5}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {6}实验结果}{38}{section.6}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {6.1}仅利用图像信息实验结果}{38}{subsection.6.1}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {6.1.1}每种模型单独最好结果对比}{38}{subsubsection.6.1.1}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {6.1.2}Ensemble 结果}{38}{subsubsection.6.1.2}\protected@file@percent }
+\@writefile{lot}{\contentsline {table}{\numberline {6}{\ignorespaces 单个图像模型最好结果对比}}{39}{table.6}\protected@file@percent }
+\newlabel{tab:image_best_results}{{6}{39}{单个图像模型最好结果对比}{table.6}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {32}{\ignorespaces 单个图像模型最好结果对比}}{39}{figure.32}\protected@file@percent }
+\newlabel{fig:image_best_results}{{32}{39}{单个图像模型最好结果对比}{figure.32}{}}
+\citation{Deng2019Arcface}
+\citation{Huang2020Curricularface}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {6.1.3}每种模型在不同超参数下的表现}{40}{subsubsection.6.1.3}\protected@file@percent }
+\@writefile{toc}{\contentsline {paragraph}{ResNet}{40}{section*.3}\protected@file@percent }
+\@writefile{lot}{\contentsline {table}{\numberline {7}{\ignorespaces ResNet 使用 ArcFace 作为损失函数在不同 margin 下的表现}}{40}{table.7}\protected@file@percent }
+\newlabel{tab:resnet_hp_arcface}{{7}{40}{ResNet 使用 ArcFace 作为损失函数在不同 margin 下的表现}{table.7}{}}
+\@writefile{lot}{\contentsline {table}{\numberline {8}{\ignorespaces ResNet 使用 CurricularFace 作为损失函数在不同 margin 下的表现}}{41}{table.8}\protected@file@percent }
+\newlabel{tab:resnet_hp_curface}{{8}{41}{ResNet 使用 CurricularFace 作为损失函数在不同 margin 下的表现}{table.8}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {33}{\ignorespaces ResNet 使用 ArcFace 作为损失函数在不同 margin 下的表现}}{41}{figure.33}\protected@file@percent }
+\newlabel{fig:resnet_hp_arcface}{{33}{41}{ResNet 使用 ArcFace 作为损失函数在不同 margin 下的表现}{figure.33}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {34}{\ignorespaces ResNet 使用 CurricularFace 作为损失函数在不同 margin 下的表现}}{41}{figure.34}\protected@file@percent }
+\newlabel{fig:resnet_hp_curface}{{34}{41}{ResNet 使用 CurricularFace 作为损失函数在不同 margin 下的表现}{figure.34}{}}
+\@writefile{toc}{\contentsline {paragraph}{ResNeXt}{41}{section*.4}\protected@file@percent }
+\@writefile{lot}{\contentsline {table}{\numberline {9}{\ignorespaces ResNeXt 使用 ArcFace 作为损失函数在不同 margin 下的表现}}{42}{table.9}\protected@file@percent }
+\newlabel{tab:resnext_hp_arcface}{{9}{42}{ResNeXt 使用 ArcFace 作为损失函数在不同 margin 下的表现}{table.9}{}}
+\@writefile{lot}{\contentsline {table}{\numberline {10}{\ignorespaces ResNeXt 使用 CurricularFace 作为损失函数在不同 margin 下的表现}}{42}{table.10}\protected@file@percent }
+\newlabel{tab:resnext_hp_curface}{{10}{42}{ResNeXt 使用 CurricularFace 作为损失函数在不同 margin 下的表现}{table.10}{}}
+\@writefile{toc}{\contentsline {paragraph}{DenseNet}{42}{section*.5}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {35}{\ignorespaces ResNeXt 使用 ArcFace 作为损失函数在不同 margin 下的表现}}{43}{figure.35}\protected@file@percent }
+\newlabel{fig:resnext_hp_arcface}{{35}{43}{ResNeXt 使用 ArcFace 作为损失函数在不同 margin 下的表现}{figure.35}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {36}{\ignorespaces ResNeXt 使用 CurricularFace 作为损失函数在不同 margin 下的表现}}{43}{figure.36}\protected@file@percent }
+\newlabel{fig:resnext_hp_curface}{{36}{43}{ResNeXt 使用 CurricularFace 作为损失函数在不同 margin 下的表现}{figure.36}{}}
+\@writefile{lot}{\contentsline {table}{\numberline {11}{\ignorespaces DenseNet 使用 ArcFace 作为损失函数在不同 margin 下的表现}}{43}{table.11}\protected@file@percent }
+\newlabel{tab:densenet_hp_arcface}{{11}{43}{DenseNet 使用 ArcFace 作为损失函数在不同 margin 下的表现}{table.11}{}}
+\@writefile{lot}{\contentsline {table}{\numberline {12}{\ignorespaces DenseNet 使用 CurricularFace 作为损失函数在不同 margin 下的表现}}{44}{table.12}\protected@file@percent }
+\newlabel{tab:densenet_hp_curface}{{12}{44}{DenseNet 使用 CurricularFace 作为损失函数在不同 margin 下的表现}{table.12}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {37}{\ignorespaces DenseNet 使用 ArcFace 作为损失函数在不同 margin 下的表现}}{44}{figure.37}\protected@file@percent }
+\newlabel{fig:densenet_hp_arcface}{{37}{44}{DenseNet 使用 ArcFace 作为损失函数在不同 margin 下的表现}{figure.37}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {38}{\ignorespaces DenseNet 使用 CurricularFace 作为损失函数在不同 margin 下的表现}}{44}{figure.38}\protected@file@percent }
+\newlabel{fig:densenet_hp_curface}{{38}{44}{DenseNet 使用 CurricularFace 作为损失函数在不同 margin 下的表现}{figure.38}{}}
+\@writefile{toc}{\contentsline {paragraph}{EfficientNet}{44}{section*.6}\protected@file@percent }
+\@writefile{lot}{\contentsline {table}{\numberline {13}{\ignorespaces EfficientNet 使用 ArcFace 作为损失函数在不同 margin 下的表现}}{45}{table.13}\protected@file@percent }
+\newlabel{tab:efficientnet_hp_arcface}{{13}{45}{EfficientNet 使用 ArcFace 作为损失函数在不同 margin 下的表现}{table.13}{}}
+\@writefile{lot}{\contentsline {table}{\numberline {14}{\ignorespaces EfficientNet 使用 CurricularFace 作为损失函数在不同 margin 下的表现}}{45}{table.14}\protected@file@percent }
+\newlabel{tab:efficientnet_hp_curface}{{14}{45}{EfficientNet 使用 CurricularFace 作为损失函数在不同 margin 下的表现}{table.14}{}}
+\@writefile{toc}{\contentsline {paragraph}{NFNet}{45}{section*.7}\protected@file@percent }
+\@writefile{lot}{\contentsline {table}{\numberline {15}{\ignorespaces NFNet 使用 ArcFace 作为损失函数在不同 margin 下的表现}}{45}{table.15}\protected@file@percent }
+\newlabel{tab:nfnet_hp_arcface}{{15}{45}{NFNet 使用 ArcFace 作为损失函数在不同 margin 下的表现}{table.15}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {39}{\ignorespaces EfficientNet 使用 ArcFace 作为损失函数在不同 margin 下的表现}}{46}{figure.39}\protected@file@percent }
+\newlabel{fig:efficientnet_hp_arcface}{{39}{46}{EfficientNet 使用 ArcFace 作为损失函数在不同 margin 下的表现}{figure.39}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {40}{\ignorespaces EfficientNet 使用 CurricularFace 作为损失函数在不同 margin 下的表现}}{46}{figure.40}\protected@file@percent }
+\newlabel{fig:efficientnet_hp_curface}{{40}{46}{EfficientNet 使用 CurricularFace 作为损失函数在不同 margin 下的表现}{figure.40}{}}
+\@writefile{lot}{\contentsline {table}{\numberline {16}{\ignorespaces NFNet 使用 CurricularFace 作为损失函数在不同 margin 下的表现}}{46}{table.16}\protected@file@percent }
+\newlabel{tab:nfnet_hp_curface}{{16}{46}{NFNet 使用 CurricularFace 作为损失函数在不同 margin 下的表现}{table.16}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {6.2}仅利用文本信息实验结果}{46}{subsection.6.2}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {6.2.1}每种模型单独最好结果对比}{46}{subsubsection.6.2.1}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {41}{\ignorespaces NFNet 使用 ArcFace 作为损失函数在不同 margin 下的表现}}{47}{figure.41}\protected@file@percent }
+\newlabel{fig:nfnet_hp_arcface}{{41}{47}{NFNet 使用 ArcFace 作为损失函数在不同 margin 下的表现}{figure.41}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {42}{\ignorespaces NFNet 使用 CurricularFace 作为损失函数在不同 margin 下的表现}}{47}{figure.42}\protected@file@percent }
+\newlabel{fig:nfnet_hp_curface}{{42}{47}{NFNet 使用 CurricularFace 作为损失函数在不同 margin 下的表现}{figure.42}{}}
+\@writefile{lot}{\contentsline {table}{\numberline {17}{\ignorespaces 单个文本模型最好结果对比}}{47}{table.17}\protected@file@percent }
+\newlabel{tab:text_best_results}{{17}{47}{单个文本模型最好结果对比}{table.17}{}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {6.2.2}Ensemble 结果}{47}{subsubsection.6.2.2}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {43}{\ignorespaces 单个文本模型最好结果对比}}{48}{figure.43}\protected@file@percent }
+\newlabel{fig:best_text_results_df}{{43}{48}{单个文本模型最好结果对比}{figure.43}{}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {6.2.3}每种模型在不同超参数下的表现}{49}{subsubsection.6.2.3}\protected@file@percent }
+\@writefile{toc}{\contentsline {paragraph}{TF-IDF}{49}{section*.8}\protected@file@percent }
+\@writefile{toc}{\contentsline {paragraph}{BERT}{49}{section*.9}\protected@file@percent }
+\@writefile{lot}{\contentsline {table}{\numberline {18}{\ignorespaces bert-base-multilingual-uncased 在不同 margin 下的表现}}{49}{table.18}\protected@file@percent }
+\newlabel{tab:bert_multi_hp}{{18}{49}{bert-base-multilingual-uncased 在不同 margin 下的表现}{table.18}{}}
+\@writefile{lot}{\contentsline {table}{\numberline {19}{\ignorespaces bert-base-indonesian-1.5G 在不同 margin 下的表现}}{50}{table.19}\protected@file@percent }
+\newlabel{tab:bert_indon_hp}{{19}{50}{bert-base-indonesian-1.5G 在不同 margin 下的表现}{table.19}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {44}{\ignorespaces bert-base-multilingual-uncased 在不同 margin 下的表现}}{50}{figure.44}\protected@file@percent }
+\newlabel{fig:bert_multi_hp}{{44}{50}{bert-base-multilingual-uncased 在不同 margin 下的表现}{figure.44}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {45}{\ignorespaces bert-base-indonesian-1.5G 在不同 margin 下的表现}}{50}{figure.45}\protected@file@percent }
+\newlabel{fig:bert_indon_hp}{{45}{50}{bert-base-indonesian-1.5G 在不同 margin 下的表现}{figure.45}{}}
+\@writefile{toc}{\contentsline {paragraph}{DistilBERT}{50}{section*.10}\protected@file@percent }
+\@writefile{lot}{\contentsline {table}{\numberline {20}{\ignorespaces distilbert-base-indonesian 在不同 margin 下的表现}}{51}{table.20}\protected@file@percent }
+\newlabel{tab:distilbert_hp}{{20}{51}{distilbert-base-indonesian 在不同 margin 下的表现}{table.20}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {46}{\ignorespaces distilbert-base-indonesian 在不同 margin 下的表现}}{51}{figure.46}\protected@file@percent }
+\newlabel{fig:distilbert_hp}{{46}{51}{distilbert-base-indonesian 在不同 margin 下的表现}{figure.46}{}}
+\@writefile{toc}{\contentsline {paragraph}{SBERT}{52}{section*.11}\protected@file@percent }
+\@writefile{lot}{\contentsline {table}{\numberline {21}{\ignorespaces paraphrase-xlm-r-multilingual-v1 在不同 margin 下的表现}}{52}{table.21}\protected@file@percent }
+\newlabel{tab:sbert_xlm_r_hp}{{21}{52}{paraphrase-xlm-r-multilingual-v1 在不同 margin 下的表现}{table.21}{}}
+\@writefile{lot}{\contentsline {table}{\numberline {22}{\ignorespaces paraphrase-distilroberta-base-v1 在不同 margin 下的表现}}{52}{table.22}\protected@file@percent }
+\newlabel{tab:sbert_distilroberta_hp}{{22}{52}{paraphrase-distilroberta-base-v1 在不同 margin 下的表现}{table.22}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {6.3}同时利用图像与文本信息实验结果}{52}{subsection.6.3}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {6.3.1}TF-IDF 与 ResNet 取并集}{52}{subsubsection.6.3.1}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {47}{\ignorespaces paraphrase-xlm-r-multilingual-v1 在不同 margin 下的表现}}{53}{figure.47}\protected@file@percent }
+\newlabel{fig:sbert_xlm_r_hp}{{47}{53}{paraphrase-xlm-r-multilingual-v1 在不同 margin 下的表现}{figure.47}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {48}{\ignorespaces paraphrase-distilroberta-base-v1 在不同 margin 下的表现}}{53}{figure.48}\protected@file@percent }
+\newlabel{fig:sbert_distilroberta_hp}{{48}{53}{paraphrase-distilroberta-base-v1 在不同 margin 下的表现}{figure.48}{}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {6.3.2}SBERT 与 NFNet 取并集}{53}{subsubsection.6.3.2}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {6.3.3}Ensemble: TF-IDF 与 ResNet 度量层融合}{54}{subsubsection.6.3.3}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {6.3.4}Ensemble: SBERT 与 NFNet 度量层融合}{54}{subsubsection.6.3.4}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {6.3.5}Ensemble: 文本 Ensemble 与图像 Ensemble 取并集}{54}{subsubsection.6.3.5}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {6.3.6}同时利用图像与文本信息实验结果总结}{55}{subsubsection.6.3.6}\protected@file@percent }
+\@writefile{lot}{\contentsline {table}{\numberline {23}{\ignorespaces 同时利用图像与文本信息实验结果总结}}{55}{table.23}\protected@file@percent }
+\newlabel{tab:image_text_results}{{23}{55}{同时利用图像与文本信息实验结果总结}{table.23}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {6.4}从机器学习角度改进后的实验结果}{55}{subsection.6.4}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {6.4.1}基于数据分布特性的改进: Min2 最少两个原则}{55}{subsubsection.6.4.1}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {49}{\ignorespaces 同时利用图像与文本信息实验结果总结}}{56}{figure.49}\protected@file@percent }
+\newlabel{fig:image_text_results}{{49}{56}{同时利用图像与文本信息实验结果总结}{figure.49}{}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {6.4.2}基于嵌入空间特性的改进: INB 迭代邻域混合}{56}{subsubsection.6.4.2}\protected@file@percent }
+\@writefile{lot}{\contentsline {table}{\numberline {24}{\ignorespaces Min2 改进前后实验结果对比}}{57}{table.24}\protected@file@percent }
+\newlabel{tab:min2_results}{{24}{57}{Min2 改进前后实验结果对比}{table.24}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {50}{\ignorespaces Min2 改进前后 F1 分数对比}}{57}{figure.50}\protected@file@percent }
+\newlabel{fig:min2_results_f1}{{50}{57}{Min2 改进前后 F1 分数对比}{figure.50}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {51}{\ignorespaces Min2 改进前后召回率对比}}{58}{figure.51}\protected@file@percent }
+\newlabel{fig:min2_results_recall}{{51}{58}{Min2 改进前后召回率对比}{figure.51}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {52}{\ignorespaces Min2 改进前后精确率对比}}{58}{figure.52}\protected@file@percent }
+\newlabel{fig:min2_results_precision}{{52}{58}{Min2 改进前后精确率对比}{figure.52}{}}
+\@writefile{lot}{\contentsline {table}{\numberline {25}{\ignorespaces INB 改进与 Min2 改进实验结果对比}}{59}{table.25}\protected@file@percent }
+\newlabel{tab:inb_results}{{25}{59}{INB 改进与 Min2 改进实验结果对比}{table.25}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {6.5}实验结果总结}{59}{subsection.6.5}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {53}{\ignorespaces INB 改进与 Min2 改进 F1 分数对比}}{60}{figure.53}\protected@file@percent }
+\newlabel{fig:inb_results_f1}{{53}{60}{INB 改进与 Min2 改进 F1 分数对比}{figure.53}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {54}{\ignorespaces INB 改进与 Min2 改进召回率对比}}{60}{figure.54}\protected@file@percent }
+\newlabel{fig:inb_results_recall}{{54}{60}{INB 改进与 Min2 改进召回率对比}{figure.54}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {55}{\ignorespaces INB 改进与 Min2 改进精确率对比}}{61}{figure.55}\protected@file@percent }
+\newlabel{fig:inb_results_precision}{{55}{61}{INB 改进与 Min2 改进精确率对比}{figure.55}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {56}{\ignorespaces INB 改进与 Min2 改进前后 F1 分数对比}}{61}{figure.56}\protected@file@percent }
+\newlabel{fig:results_summary_f1}{{56}{61}{INB 改进与 Min2 改进前后 F1 分数对比}{figure.56}{}}
+\newlabel{RF1}{62}
+\@writefile{lot}{\contentsline {table}{\numberline {26}{\ignorespaces 实验结果总结}}{62}{table.26}\protected@file@percent }
+\newlabel{tab:results_summary}{{26}{62}{实验结果总结}{table.26}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {57}{\ignorespaces INB 改进与 Min2 改进前后召回率对比}}{63}{figure.57}\protected@file@percent }
+\newlabel{fig:results_summary_recall}{{57}{63}{INB 改进与 Min2 改进前后召回率对比}{figure.57}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {58}{\ignorespaces INB 改进与 Min2 改进前后精确率对比}}{63}{figure.58}\protected@file@percent }
+\newlabel{fig:results_summary_precision}{{58}{63}{INB 改进与 Min2 改进前后精确率对比}{figure.58}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {7}实验结果分析}{64}{section.7}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {7.1}模型超参数对性能的影响}{64}{subsection.7.1}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {7.1.1}ResNet}{64}{subsubsection.7.1.1}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {7.1.2}ResNeXt}{64}{subsubsection.7.1.2}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {7.1.3}DenseNet}{64}{subsubsection.7.1.3}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {7.1.4}EfficientNet}{65}{subsubsection.7.1.4}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {7.1.5}NFNet}{65}{subsubsection.7.1.5}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {7.1.6}BERT}{66}{subsubsection.7.1.6}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {7.1.7}DistilBERT}{66}{subsubsection.7.1.7}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {7.1.8}SBERT}{66}{subsubsection.7.1.8}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {7.2}特征的重要性分析}{67}{subsection.7.2}\protected@file@percent }
+\@writefile{lot}{\contentsline {table}{\numberline {27}{\ignorespaces 单个图像模型与文本模型最好结果对比}}{67}{table.27}\protected@file@percent }
+\newlabel{tab:image_text_best_results_analysis}{{27}{67}{单个图像模型与文本模型最好结果对比}{table.27}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {7.3}错误分析}{67}{subsection.7.3}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {7.4}案例分析}{68}{subsection.7.4}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {7.4.1}仅利用图像信息实验结果分析}{68}{subsubsection.7.4.1}\protected@file@percent }
+\@writefile{lot}{\contentsline {table}{\numberline {28}{\ignorespaces 单个图像模型最好结果对比}}{68}{table.28}\protected@file@percent }
+\newlabel{tab:image_best_results_analysis}{{28}{68}{单个图像模型最好结果对比}{table.28}{}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {7.4.2}仅利用文本信息实验结果分析}{68}{subsubsection.7.4.2}\protected@file@percent }
+\@writefile{lot}{\contentsline {table}{\numberline {29}{\ignorespaces 单个文本模型最好结果对比}}{69}{table.29}\protected@file@percent }
+\newlabel{tab:text_best_results_analysis}{{29}{69}{单个文本模型最好结果对比}{table.29}{}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {7.4.3}同时利用图像与文本信息实验结果分析}{69}{subsubsection.7.4.3}\protected@file@percent }
+\@writefile{lot}{\contentsline {table}{\numberline {30}{\ignorespaces 同时利用图像与文本信息实验结果总结}}{69}{table.30}\protected@file@percent }
+\newlabel{tab:image_text_results_analysis}{{30}{69}{同时利用图像与文本信息实验结果总结}{table.30}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {7.5}模型和结果可视化分析}{69}{subsection.7.5}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {59}{\ignorespaces INB 改进与 Min2 改进前后 F1 分数对比}}{70}{figure.59}\protected@file@percent }
+\newlabel{fig:results_summary_f1_analysis}{{59}{70}{INB 改进与 Min2 改进前后 F1 分数对比}{figure.59}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {60}{\ignorespaces INB 改进与 Min2 改进前后召回率对比}}{70}{figure.60}\protected@file@percent }
+\newlabel{fig:results_summary_recall_analysis}{{60}{70}{INB 改进与 Min2 改进前后召回率对比}{figure.60}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {61}{\ignorespaces INB 改进与 Min2 改进前后精确率对比}}{71}{figure.61}\protected@file@percent }
+\newlabel{fig:results_summary_precision_analysis}{{61}{71}{INB 改进与 Min2 改进前后精确率对比}{figure.61}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {7.6}从机器学习角度改进后的实验结果分析}{71}{subsection.7.6}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {7.6.1}基于数据分布特性的改进: Min2 最少两个原则}{71}{subsubsection.7.6.1}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {7.6.2}基于嵌入空间特性的改进: INB 迭代邻域混合}{72}{subsubsection.7.6.2}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {8}代码接口}{72}{section.8}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {8.1}参考代码说明}{72}{subsection.8.1}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {8.2}代码接口}{72}{subsection.8.2}\protected@file@percent }
+\@writefile{lot}{\contentsline {table}{\numberline {31}{\ignorespaces 参考代码及链接}}{73}{table.31}\protected@file@percent }
+\newlabel{tab:code_refs}{{31}{73}{参考代码及链接}{table.31}{}}
+\bibstyle{unsrt}
+\bibdata{ref.bib}
+\bibcite{Dubey2020Decade}{{1}{}{{}}{{}}}
+\@writefile{toc}{\contentsline {section}{\numberline {9}结论}{74}{section.9}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{参考文献}{74}{section.9}\protected@file@percent }
+\bibcite{Hwang2012Medical}{{2}{}{{}}{{}}}
+\bibcite{Alkhawlani2015Text}{{3}{}{{}}{{}}}
+\bibcite{Kato1992Database}{{4}{}{{}}{{}}}
+\bibcite{Smeulders2000Content}{{5}{}{{}}{{}}}
+\bibcite{Chen2021Deep}{{6}{}{{}}{{}}}
+\bibcite{Dalal2005Histograms}{{7}{}{{}}{{}}}
+\bibcite{Lowe1999Object}{{8}{}{{}}{{}}}
+\bibcite{Bay2006Surf}{{9}{}{{}}{{}}}
+\bibcite{Calonder2010Brief}{{10}{}{{}}{{}}}
+\bibcite{Rublee2011Orb}{{11}{}{{}}{{}}}
+\bibcite{Harris1988Combined}{{12}{}{{}}{{}}}
+\bibcite{Sivic2008Efficient}{{13}{}{{}}{{}}}
+\bibcite{Jegou2010Aggregating}{{14}{}{{}}{{}}}
+\bibcite{Perronnin2007Fisher}{{15}{}{{}}{{}}}
+\bibcite{Krizhevsky2012Imagenet}{{16}{}{{}}{{}}}
+\bibcite{Simonyan2014Very}{{17}{}{{}}{{}}}
+\bibcite{Szegedy2015Going}{{18}{}{{}}{{}}}
+\bibcite{He2016Deep}{{19}{}{{}}{{}}}
+\bibcite{Arya1998Optimal}{{20}{}{{}}{{}}}
+\bibcite{Wang2017Survey}{{21}{}{{}}{{}}}
+\bibcite{Charikar2002Similarity}{{22}{}{{}}{{}}}
+\bibcite{Gong2012Iterative}{{23}{}{{}}{{}}}
+\bibcite{Weiss2008Spectral}{{24}{}{{}}{{}}}
+\bibcite{Shen2015Supervised}{{25}{}{{}}{{}}}
+\bibcite{Liu2012Supervised}{{26}{}{{}}{{}}}
+\bibcite{Kulis2009Learning}{{27}{}{{}}{{}}}
+\bibcite{Vo2019Composing}{{28}{}{{}}{{}}}
+\bibcite{Zhang2020Context}{{29}{}{{}}{{}}}
+\bibcite{Wang2019CAMP}{{30}{}{{}}{{}}}
+\bibcite{Chen2017AMC}{{31}{}{{}}{{}}}
+\bibcite{Devlin2018BERT}{{32}{}{{}}{{}}}
+\bibcite{Lu2019ViLBERT}{{33}{}{{}}{{}}}
+\bibcite{Su2019VL}{{34}{}{{}}{{}}}
+\bibcite{Li2019VisualBERT}{{35}{}{{}}{{}}}
+\bibcite{Van2017Devil}{{36}{}{{}}{{}}}
+\bibcite{Van2018iNaturalist}{{37}{}{{}}{{}}}
+\bibcite{Gupta2019LVIS}{{38}{}{{}}{{}}}
+\bibcite{Wei2019RPC}{{39}{}{{}}{{}}}
+\bibcite{Zhou2020BBN}{{40}{}{{}}{{}}}
+\bibcite{Schroeder2020Structured}{{41}{}{{}}{{}}}
+\bibcite{Zhou2020Large}{{42}{}{{}}{{}}}
+\bibcite{Somasundaran2020Robust}{{43}{}{{}}{{}}}
+\bibcite{Humenberger2020Robust}{{44}{}{{}}{{}}}
+\bibcite{Zhang2020Dive}{{45}{}{{}}{{}}}
+\bibcite{Xie2017Aggregated}{{46}{}{{}}{{}}}
+\bibcite{Huang2017Densely}{{47}{}{{}}{{}}}
+\bibcite{Tan2019Efficientnet}{{48}{}{{}}{{}}}
+\bibcite{Brock2021High}{{49}{}{{}}{{}}}
+\bibcite{Rajaraman2011Data}{{50}{}{{}}{{}}}
+\bibcite{Vaswani2017Attention}{{51}{}{{}}{{}}}
+\bibcite{Sanh2019Distilbert}{{52}{}{{}}{{}}}
+\bibcite{Reimers2019Sentence}{{53}{}{{}}{{}}}
+\bibcite{Deng2019Arcface}{{54}{}{{}}{{}}}
+\bibcite{Huang2020Curricularface}{{55}{}{{}}{{}}}
+\providecommand\NAT@force@numbers{}\NAT@force@numbers

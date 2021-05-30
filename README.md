@@ -5,6 +5,7 @@
 
 ![GitHub Version](https://img.shields.io/github/release/jingxuanyang/Shopee-Product-Matching.svg)
 ![Repo Size](https://img.shields.io/github/repo-size/jingxuanyang/Shopee-Product-Matching.svg)
+![License](https://img.shields.io/github/license/jingxuanyang/Shopee-Product-Matching.svg)
 
 ## Introduction
 

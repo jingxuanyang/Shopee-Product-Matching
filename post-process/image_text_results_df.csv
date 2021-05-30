@@ -1,0 +1,6 @@
+,f1,recall,precision
+tfidf resnet union,0.833676,0.909294,0.828982
+nfnet sbert union,0.852916,0.937521,0.835198
+tfidf resnet ensemble,0.869537,0.886325,0.912953
+nfnet sbert ensemble,0.880711,0.913826,0.902448
+text image union,0.852675,0.949394,0.825564

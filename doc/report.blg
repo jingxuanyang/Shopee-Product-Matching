@@ -1,0 +1,330 @@
+\begin{thebibliography}{10}
+
+\bibitem{Dubey2020Decade}
+Shiv~Ram Dubey.
+\newblock A decade survey of content based image retrieval using deep learning,
+  2020.
+
+\bibitem{Hwang2012Medical}
+Kyung~Hoon Hwang, Haejun Lee, and Duckjoo Choi.
+\newblock Medical image retrieval: Past and present.
+\newblock {\em Healthcare informatics research}, 18(1):3, 2012.
+
+\bibitem{Alkhawlani2015Text}
+Mohammed Alkhawlani, Mohammed Elmogy, and Hazem El~Bakry.
+\newblock Text-based, content-based, and semantic-based image retrievals: A
+  survey.
+\newblock {\em Int. J. Comput. Inf. Technol}, 4(01):58--66, 2015.
+
+\bibitem{Kato1992Database}
+Toshikazu Kato.
+\newblock Database architecture for content-based image retrieval.
+\newblock In {\em image storage and retrieval systems}, volume 1662, pages
+  112--123. International Society for Optics and Photonics, 1992.
+
+\bibitem{Smeulders2000Content}
+Arnold~WM Smeulders, Marcel Worring, Simone Santini, Amarnath Gupta, and Ramesh
+  Jain.
+\newblock Content-based image retrieval at the end of the early years.
+\newblock {\em IEEE Transactions on pattern analysis and machine intelligence},
+  22:1349--1380, 2000.
+
+\bibitem{Chen2021Deep}
+Wei Chen, Yu~Liu, Weiping Wang, Erwin Bakker, Theodoros Georgiou, Paul Fieguth,
+  Li~Liu, and Michael~S. Lew.
+\newblock Deep image retrieval: A survey, 2021.
+
+\bibitem{Dalal2005Histograms}
+Navneet Dalal and Bill Triggs.
+\newblock Histograms of oriented gradients for human detection.
+\newblock In {\em 2005 IEEE computer society conference on computer vision and
+  pattern recognition (CVPR'05)}, volume~1, pages 886--893. Ieee, 2005.
+
+\bibitem{Lowe1999Object}
+David~G Lowe.
+\newblock Object recognition from local scale-invariant features.
+\newblock In {\em Proceedings of the seventh IEEE international conference on
+  computer vision}, volume~2, pages 1150--1157. Ieee, 1999.
+
+\bibitem{Bay2006Surf}
+Herbert Bay, Tinne Tuytelaars, and Luc Van~Gool.
+\newblock Surf: Speeded up robust features.
+\newblock In {\em European conference on computer vision}, pages 404--417.
+  Springer, 2006.
+
+\bibitem{Calonder2010Brief}
+Michael Calonder, Vincent Lepetit, Christoph Strecha, and Pascal Fua.
+\newblock Brief: Binary robust independent elementary features.
+\newblock In {\em European conference on computer vision}, pages 778--792.
+  Springer, 2010.
+
+\bibitem{Rublee2011Orb}
+Ethan Rublee, Vincent Rabaud, Kurt Konolige, and Gary Bradski.
+\newblock Orb: An efficient alternative to sift or surf.
+\newblock In {\em 2011 International conference on computer vision}, pages
+  2564--2571. Ieee, 2011.
+
+\bibitem{Harris1988Combined}
+Christopher~G Harris, Mike Stephens, et~al.
+\newblock A combined corner and edge detector.
+\newblock In {\em Alvey vision conference}, volume~15, pages 10--5244.
+  Citeseer, 1988.
+
+\bibitem{Sivic2008Efficient}
+Josef Sivic and Andrew Zisserman.
+\newblock Efficient visual search of videos cast as text retrieval.
+\newblock {\em IEEE transactions on pattern analysis and machine intelligence},
+  31(4):591--606, 2008.
+
+\bibitem{Jegou2010Aggregating}
+Herv{\'e} J{\'e}gou, Matthijs Douze, Cordelia Schmid, and Patrick P{\'e}rez.
+\newblock Aggregating local descriptors into a compact image representation.
+\newblock In {\em 2010 IEEE computer society conference on computer vision and
+  pattern recognition}, pages 3304--3311. IEEE, 2010.
+
+\bibitem{Perronnin2007Fisher}
+Florent Perronnin and Christopher Dance.
+\newblock Fisher kernels on visual vocabularies for image categorization.
+\newblock In {\em 2007 IEEE conference on computer vision and pattern
+  recognition}, pages 1--8. IEEE, 2007.
+
+\bibitem{Krizhevsky2012Imagenet}
+Alex Krizhevsky, Ilya Sutskever, and Geoffrey~E Hinton.
+\newblock Imagenet classification with deep convolutional neural networks.
+\newblock {\em Advances in neural information processing systems},
+  25:1097--1105, 2012.
+
+\bibitem{Simonyan2014Very}
+Karen Simonyan and Andrew Zisserman.
+\newblock Very deep convolutional networks for large-scale image recognition.
+\newblock {\em arXiv preprint arXiv:1409.1556}, 2014.
+
+\bibitem{Szegedy2015Going}
+Christian Szegedy, Wei Liu, Yangqing Jia, Pierre Sermanet, Scott Reed, Dragomir
+  Anguelov, Dumitru Erhan, Vincent Vanhoucke, and Andrew Rabinovich.
+\newblock Going deeper with convolutions.
+\newblock In {\em Proceedings of the IEEE conference on computer vision and
+  pattern recognition}, pages 1--9, 2015.
+
+\bibitem{He2016Deep}
+Kaiming He, Xiangyu Zhang, Shaoqing Ren, and Jian Sun.
+\newblock Deep residual learning for image recognition.
+\newblock In {\em Proceedings of the IEEE conference on computer vision and
+  pattern recognition}, pages 770--778, 2016.
+
+\bibitem{Arya1998Optimal}
+Sunil Arya, David~M Mount, Nathan~S Netanyahu, Ruth Silverman, and Angela~Y Wu.
+\newblock An optimal algorithm for approximate nearest neighbor searching fixed
+  dimensions.
+\newblock {\em Journal of the ACM (JACM)}, 45(6):891--923, 1998.
+
+\bibitem{Wang2017Survey}
+Jingdong Wang, Ting Zhang, Nicu Sebe, Heng~Tao Shen, et~al.
+\newblock A survey on learning to hash.
+\newblock {\em IEEE transactions on pattern analysis and machine intelligence},
+  40(4):769--790, 2017.
+
+\bibitem{Charikar2002Similarity}
+Moses~S Charikar.
+\newblock Similarity estimation techniques from rounding algorithms.
+\newblock In {\em Proceedings of the thiry-fourth annual ACM symposium on
+  Theory of computing}, pages 380--388, 2002.
+
+\bibitem{Gong2012Iterative}
+Yunchao Gong, Svetlana Lazebnik, Albert Gordo, and Florent Perronnin.
+\newblock Iterative quantization: A procrustean approach to learning binary
+  codes for large-scale image retrieval.
+\newblock {\em IEEE transactions on pattern analysis and machine intelligence},
+  35:2916--2929, 2012.
+
+\bibitem{Weiss2008Spectral}
+Yair Weiss, Antonio Torralba, Robert Fergus, et~al.
+\newblock Spectral hashing.
+\newblock In {\em Nips}, volume~1, page~4. Citeseer, 2008.
+
+\bibitem{Shen2015Supervised}
+Fumin Shen, Chunhua Shen, Wei Liu, and Heng Tao~Shen.
+\newblock Supervised discrete hashing.
+\newblock In {\em Proceedings of the IEEE conference on computer vision and
+  pattern recognition}, pages 37--45, 2015.
+
+\bibitem{Liu2012Supervised}
+Wei Liu, Jun Wang, Rongrong Ji, Yu-Gang Jiang, and Shih-Fu Chang.
+\newblock Supervised hashing with kernels.
+\newblock In {\em 2012 IEEE Conference on Computer Vision and Pattern
+  Recognition}, pages 2074--2081. IEEE, 2012.
+
+\bibitem{Kulis2009Learning}
+Brian Kulis and Trevor Darrell.
+\newblock Learning to hash with binary reconstructive embeddings.
+\newblock In {\em NIPS}, volume~22, pages 1042--1050. Citeseer, 2009.
+
+\bibitem{Vo2019Composing}
+N.~{Vo}, L.~{Jiang}, C.~{Sun}, K.~{Murphy}, L.~{Li}, L.~{Fei-Fei}, and
+  J.~{Hays}.
+\newblock Composing text and image for image retrieval - an empirical odyssey.
+\newblock In {\em 2019 IEEE/CVF Conference on Computer Vision and Pattern
+  Recognition (CVPR)}, pages 6432--6441, 2019.
+
+\bibitem{Zhang2020Context}
+Q.~{Zhang}, Z.~{Lei}, Z.~{Zhang}, and S.~Z. {Li}.
+\newblock Context-aware attention network for image-text retrieval.
+\newblock In {\em 2020 IEEE/CVF Conference on Computer Vision and Pattern
+  Recognition (CVPR)}, pages 3533--3542, 2020.
+
+\bibitem{Wang2019CAMP}
+Z.~{Wang}, X.~{Liu}, H.~{Li}, L.~{Sheng}, J.~{Yan}, X.~{Wang}, and J.~{Shao}.
+\newblock Camp: Cross-modal adaptive message passing for text-image retrieval.
+\newblock In {\em 2019 IEEE/CVF International Conference on Computer Vision
+  (ICCV)}, pages 5763--5772, 2019.
+
+\bibitem{Chen2017AMC}
+Kan Chen, Trung Bui, Chen Fang, Zhaowen Wang, and Ram Nevatia.
+\newblock Amc: Attention guided multi-modal correlation learning for image
+  search.
+\newblock In {\em Proceedings of the IEEE Conference on Computer Vision and
+  Pattern Recognition}, pages 2644--2652, 2017.
+
+\bibitem{Devlin2018BERT}
+Jacob Devlin, Ming-Wei Chang, Kenton Lee, and Kristina Toutanova.
+\newblock Bert: Pre-training of deep bidirectional transformers for language
+  understanding.
+\newblock {\em arXiv preprint arXiv:1810.04805}, 2018.
+
+\bibitem{Lu2019ViLBERT}
+Jiasen Lu, Dhruv Batra, Devi Parikh, and Stefan Lee.
+\newblock Vilbert: Pretraining task-agnostic visiolinguistic representations
+  for vision-and-language tasks.
+\newblock {\em arXiv preprint arXiv:1908.02265}, 2019.
+
+\bibitem{Su2019VL}
+Weijie Su, Xizhou Zhu, Yue Cao, Bin Li, Lewei Lu, Furu Wei, and Jifeng Dai.
+\newblock Vl-bert: Pre-training of generic visual-linguistic representations.
+\newblock {\em arXiv preprint arXiv:1908.08530}, 2019.
+
+\bibitem{Li2019VisualBERT}
+Liunian~Harold Li, Mark Yatskar, Da~Yin, Cho-Jui Hsieh, and Kai-Wei Chang.
+\newblock Visualbert: A simple and performant baseline for vision and language.
+\newblock {\em arXiv preprint arXiv:1908.03557}, 2019.
+
+\bibitem{Van2017Devil}
+Grant Van~Horn and Pietro Perona.
+\newblock The devil is in the tails: Fine-grained classification in the wild.
+\newblock {\em arXiv preprint arXiv:1709.01450}, 2017.
+
+\bibitem{Van2018iNaturalist}
+Grant Van~Horn, Oisin Mac~Aodha, Yang Song, Yin Cui, Chen Sun, Alex Shepard,
+  Hartwig Adam, Pietro Perona, and Serge Belongie.
+\newblock The inaturalist species classification and detection dataset.
+\newblock In {\em Proceedings of the IEEE conference on computer vision and
+  pattern recognition}, pages 8769--8778, 2018.
+
+\bibitem{Gupta2019LVIS}
+Agrim Gupta, Piotr Dollar, and Ross Girshick.
+\newblock Lvis: A dataset for large vocabulary instance segmentation.
+\newblock In {\em Proceedings of the IEEE/CVF Conference on Computer Vision and
+  Pattern Recognition}, pages 5356--5364, 2019.
+
+\bibitem{Wei2019RPC}
+Xiu-Shen Wei, Quan Cui, Lei Yang, Peng Wang, and Lingqiao Liu.
+\newblock Rpc: A large-scale retail product checkout dataset.
+\newblock {\em arXiv preprint arXiv:1901.07249}, 2019.
+
+\bibitem{Zhou2020BBN}
+B.~{Zhou}, Q.~{Cui}, X.~S. {Wei}, and Z.~M. {Chen}.
+\newblock Bbn: Bilateral-branch network with cumulative learning for
+  long-tailed visual recognition.
+\newblock In {\em 2020 IEEE/CVF Conference on Computer Vision and Pattern
+  Recognition (CVPR)}, pages 9716--9725, 2020.
+
+\bibitem{Schroeder2020Structured}
+B.~{Schroeder} and S.~{Tripathi}.
+\newblock Structured query-based image retrieval using scene graphs.
+\newblock In {\em 2020 IEEE/CVF Conference on Computer Vision and Pattern
+  Recognition Workshops (CVPRW)}, pages 680--684, 2020.
+
+\bibitem{Zhou2020Large}
+Xiangzeng Zhou, Pan Pan, Yun Zheng, Yinghui Xu, and Rong Jin.
+\newblock Large scale long-tailed product recognition system at alibaba.
+\newblock {\em Proceedings of the 29th ACM International Conference on
+  Information \& Knowledge Management}, Oct 2020.
+
+\bibitem{Somasundaran2020Robust}
+Biju~Venkadath Somasundaran, Rajiv Soundararajan, and Soma Biswas.
+\newblock Robust image retrieval by cascading a deep quality assessment
+  network.
+\newblock {\em Signal Processing: Image Communication}, 80:115652, 2020.
+
+\bibitem{Humenberger2020Robust}
+Martin Humenberger, Yohann Cabon, Nicolas Guerin, Julien Morat, Jérôme
+  Revaud, Philippe Rerole, Noé Pion, Cesar de~Souza, Vincent Leroy, and
+  Gabriela Csurka.
+\newblock Robust image retrieval-based visual localization using kapture, 2020.
+
+\bibitem{Zhang2020Dive}
+Aston Zhang, Zachary~C. Lipton, Mu~Li, and Alexander~J. Smola.
+\newblock {\em Dive into Deep Learning}.
+\newblock Github, 2020.
+\newblock \url{https://d2l.ai}.
+
+\bibitem{Xie2017Aggregated}
+Saining Xie, Ross Girshick, Piotr Doll{\'a}r, Zhuowen Tu, and Kaiming He.
+\newblock Aggregated residual transformations for deep neural networks.
+\newblock In {\em Proceedings of the IEEE conference on computer vision and
+  pattern recognition}, pages 1492--1500, 2017.
+
+\bibitem{Huang2017Densely}
+Gao Huang, Zhuang Liu, Laurens Van Der~Maaten, and Kilian~Q Weinberger.
+\newblock Densely connected convolutional networks.
+\newblock In {\em Proceedings of the IEEE conference on computer vision and
+  pattern recognition}, pages 4700--4708, 2017.
+
+\bibitem{Tan2019Efficientnet}
+Mingxing Tan and Quoc Le.
+\newblock Efficientnet: Rethinking model scaling for convolutional neural
+  networks.
+\newblock In {\em International Conference on Machine Learning}, pages
+  6105--6114. PMLR, 2019.
+
+\bibitem{Brock2021High}
+Andrew Brock, Soham De, Samuel~L Smith, and Karen Simonyan.
+\newblock High-performance large-scale image recognition without normalization.
+\newblock {\em arXiv preprint arXiv:2102.06171}, 2021.
+
+\bibitem{Rajaraman2011Data}
+Anand Rajaraman and Jeffrey~David Ullman.
+\newblock {\em Data Mining}, page 1–17.
+\newblock Cambridge University Press, 2011.
+
+\bibitem{Vaswani2017Attention}
+Ashish Vaswani, Noam Shazeer, Niki Parmar, Jakob Uszkoreit, Llion Jones,
+  Aidan~N Gomez, Lukasz Kaiser, and Illia Polosukhin.
+\newblock Attention is all you need.
+\newblock {\em arXiv preprint arXiv:1706.03762}, 2017.
+
+\bibitem{Sanh2019Distilbert}
+Victor Sanh, Lysandre Debut, Julien Chaumond, and Thomas Wolf.
+\newblock Distilbert, a distilled version of bert: smaller, faster, cheaper and
+  lighter.
+\newblock {\em arXiv preprint arXiv:1910.01108}, 2019.
+
+\bibitem{Reimers2019Sentence}
+Nils Reimers and Iryna Gurevych.
+\newblock Sentence-bert: Sentence embeddings using siamese bert-networks.
+\newblock {\em arXiv preprint arXiv:1908.10084}, 2019.
+
+\bibitem{Deng2019Arcface}
+Jiankang Deng, Jia Guo, Niannan Xue, and Stefanos Zafeiriou.
+\newblock Arcface: Additive angular margin loss for deep face recognition.
+\newblock In {\em Proceedings of the IEEE/CVF Conference on Computer Vision and
+  Pattern Recognition}, pages 4690--4699, 2019.
+
+\bibitem{Huang2020Curricularface}
+Yuge Huang, Yuhan Wang, Ying Tai, Xiaoming Liu, Pengcheng Shen, Shaoxin Li,
+  Jilin Li, and Feiyue Huang.
+\newblock Curricularface: adaptive curriculum learning loss for deep face
+  recognition.
+\newblock In {\em proceedings of the IEEE/CVF conference on computer vision and
+  pattern recognition}, pages 5901--5910, 2020.
+
+\end{thebibliography}
