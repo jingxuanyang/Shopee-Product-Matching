@@ -24,6 +24,8 @@ The directory of this project is as follows.
 |- notebook/
 |- notebook-image-text/
 |- notebook-text/
+|- post-process/
+|- refs/
 |- test/
 |- README.md
 |- requirements.txt
@@ -47,6 +49,10 @@ The directory of this project is as follows.
   + This folder contains jupyter notebooks for ensembles of image and text models
 + notebook-text/
   + This folder contains jupyter notebooks for training and inference of text models
++ post-process/
+  + This folder contains post process codes and results
++ refs/
+  + This folder contains some reference papers
 + test/
   + This folder includes test jupyter notebooks
 + README.md
